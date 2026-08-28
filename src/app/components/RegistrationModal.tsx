@@ -17,6 +17,11 @@ import { Loader2, CheckCircle2 } from "lucide-react";
 
 const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbzA08KCv3DFbFMcKUzpMi5Ug-xUd0_tqDmicwg-xr0ENcNtx7OfJdGvqTaHzHOkYxWw/exec";
 
+// Identifies which edition of the expo a lead came from, so every regional site
+// writes into the one shared sheet and stays separable by country.
+const EVENT_COUNTRY = "Singapore";
+const EVENT_CITY = "Singapore";
+
 interface RegistrationModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -114,6 +119,8 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
     try {
       const params = new URLSearchParams({
         action: "write",
+        country: EVENT_COUNTRY,
+        eventCity: EVENT_CITY,
         fullName: formData.fullName,
         email: formData.email,
         countryCode: formData.countryCode,
