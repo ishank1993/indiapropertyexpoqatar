@@ -33,6 +33,10 @@ const blogSlugs = [
   "best-bangalore-projects-nri-investment-singapore",
   "pune-vs-hyderabad-property-investment-nri-singapore",
   "luxury-real-estate-mumbai-gurgaon-nri-singapore",
+  "nri-home-loan-guide-singapore",
+  "nri-inheritance-succession-indian-property",
+  "goa-property-investment-nri-singapore",
+  "nri-property-investment-mistakes-singapore",
 ];
 
 const routes = [

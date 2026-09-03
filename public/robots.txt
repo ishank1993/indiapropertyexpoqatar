@@ -1,4 +1,4 @@
-# robots.txt for NRI Nivesh India Property Expo 2026
+# robots.txt for NRI Nivesh India Property Expo 2026 (Singapore)
 
 User-agent: *
 Allow: /
@@ -18,10 +18,9 @@ Allow: /browserconfig.xml
 # Sitemap
 Sitemap: https://nriniveshexposg.com/sitemap.xml
 
-# Crawl-delay
-Crawl-delay: 10
-
-# Specific bot instructions
+# ------------------------------------------------------------------
+# Search engines
+# ------------------------------------------------------------------
 User-agent: Googlebot
 Allow: /
 
@@ -29,4 +28,94 @@ User-agent: Bingbot
 Allow: /
 
 User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# ------------------------------------------------------------------
+# AI assistants & answer engines — explicitly welcomed so this site
+# can be crawled, indexed, and cited by AI tools.
+# ------------------------------------------------------------------
+
+# OpenAI (ChatGPT / search / user-triggered fetches)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini / AI Overviews training corpus)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Microsoft Copilot
+User-agent: BingPreview
+Allow: /
+
+# Apple (Siri / Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Amazon (Alexa / Rufus)
+User-agent: Amazonbot
+Allow: /
+
+# ByteDance
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl — a shared dataset many AI labs train on
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
 Allow: /

@@ -17,11 +17,6 @@ import { Loader2, CheckCircle2 } from "lucide-react";
 
 const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbzA08KCv3DFbFMcKUzpMi5Ug-xUd0_tqDmicwg-xr0ENcNtx7OfJdGvqTaHzHOkYxWw/exec";
 
-// Identifies which edition of the expo a lead came from, so every regional site
-// writes into the one shared sheet and stays separable by country.
-const EVENT_COUNTRY = "Singapore";
-const EVENT_CITY = "Singapore";
-
 interface RegistrationModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -119,8 +114,6 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
     try {
       const params = new URLSearchParams({
         action: "write",
-        country: EVENT_COUNTRY,
-        eventCity: EVENT_CITY,
         fullName: formData.fullName,
         email: formData.email,
         countryCode: formData.countryCode,
@@ -186,7 +179,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
               Your free pass is confirmed. Check your email for event details and exclusive pre-launch offers.
             </p>
             <p className="text-xs sm:text-sm text-orange-600 font-semibold px-2">
-              See you at Sheraton Hotel on 5th Sep or 6th Sep!
+              See you at Sheraton Towers on 21st Nov or 22nd Nov!
             </p>
           </div>
         </DialogContent>
@@ -204,7 +197,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
           <DialogDescription className="text-center text-[10px] sm:text-base px-1 sm:px-2 leading-tight sm:leading-normal">
             Singapore's Largest India Property Exhibition
             <br className="hidden sm:block" />
-            <span className="text-orange-600 font-semibold text-[10px] sm:text-base"> 📅 5 Sep & 6 Sep 2026</span>
+            <span className="text-orange-600 font-semibold text-[10px] sm:text-base"> 📅 21 Nov & 22 Nov 2026</span>
           </DialogDescription>
         </DialogHeader>
 
@@ -280,8 +273,8 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
                 <SelectValue placeholder="Select your preferred date" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="sep-5" className="text-xs sm:text-sm">5th Sep (Sat) 10am-7pm</SelectItem>
-                <SelectItem value="sep-6" className="text-xs sm:text-sm">6th Sep (Sun) 10am-7pm</SelectItem>
+                <SelectItem value="nov-21" className="text-xs sm:text-sm">21st Nov (Sat) 10am-7pm</SelectItem>
+                <SelectItem value="nov-22" className="text-xs sm:text-sm">22nd Nov (Sun) 10am-7pm</SelectItem>
                 <SelectItem value="both" className="text-xs sm:text-sm">Both Days</SelectItem>
               </SelectContent>
             </Select>

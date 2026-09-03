@@ -138,8 +138,8 @@ export function Footer({ onNavigateToPrivacy, onNavigateToTerms, onNavigateToDis
               </li>
               {["Terms & Conditions", "Disclaimer"].map((link) => (
                 <li key={link}>
-                  <a 
-                    href="#" 
+                  <a
+                    href="#"
                     onClick={(e) => handleLinkClick(e, link)}
                     className="hover:text-white hover:translate-x-1 transition-all inline-block cursor-pointer"
                   >
@@ -147,6 +147,32 @@ export function Footer({ onNavigateToPrivacy, onNavigateToTerms, onNavigateToDis
                   </a>
                 </li>
               ))}
+            </ul>
+
+            <h3 className="text-lg font-bold mt-8 mb-6 text-orange-300">Global Editions</h3>
+            <ul className="space-y-3 text-orange-200">
+              <li>
+                <a
+                  href="https://indiapropertyexpoabudhabi.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white hover:translate-x-1 transition-all inline-block cursor-pointer"
+                  aria-label="India Property Expo Abu Dhabi (opens in new tab)"
+                >
+                  India Property Expo – Abu Dhabi
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://indiapropertyexpobahrain.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white hover:translate-x-1 transition-all inline-block cursor-pointer"
+                  aria-label="India Property Expo Bahrain (opens in new tab)"
+                >
+                  India Property Expo – Bahrain
+                </a>
+              </li>
             </ul>
           </div>
 

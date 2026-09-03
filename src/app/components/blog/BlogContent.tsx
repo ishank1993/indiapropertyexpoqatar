@@ -165,6 +165,23 @@ export function BlogContent({ blocks, onRegisterClick }: BlogContentProps) {
               </div>
             );
 
+          case "extlink":
+            return (
+              <div key={key} className="rounded-2xl bg-blue-50 border border-blue-200 p-6">
+                <p className="text-lg text-gray-700 leading-relaxed mb-3">
+                  {renderInline(block.text, key)}
+                </p>
+                <a
+                  href={block.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center font-semibold text-blue-700 hover:text-blue-800"
+                >
+                  {block.label} <ArrowRight className="w-4 h-4 ml-1" />
+                </a>
+              </div>
+            );
+
           default:
             return null;
         }
