@@ -57,7 +57,7 @@ export function Footer({ onNavigateToPrivacy, onNavigateToTerms, onNavigateToDis
             <div className="flex items-center space-x-2">
               <img 
                 src="/logo.png" 
-                alt="NRI Nivesh - India Property Expo Singapore logo" 
+                alt="NRI Nivesh - India Property Expo Qatar logo"
                 width="160"
                 height="40"
                 loading="lazy"
@@ -153,6 +153,17 @@ export function Footer({ onNavigateToPrivacy, onNavigateToTerms, onNavigateToDis
             <ul className="space-y-3 text-orange-200">
               <li>
                 <a
+                  href="https://nriniveshexposg.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white hover:translate-x-1 transition-all inline-block cursor-pointer"
+                  aria-label="India Property Expo Singapore (opens in new tab)"
+                >
+                  India Property Expo – Singapore
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://indiapropertyexpoabudhabi.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -190,7 +201,7 @@ export function Footer({ onNavigateToPrivacy, onNavigateToTerms, onNavigateToDis
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-orange-400 flex-shrink-0" />
-                <span>Sheraton Towers Singapore,<br />39 Scotts Road, Singapore 228230</span>
+                <span>5-Star Hotel, Doha, Qatar<br />Exact address shared on registration</span>
               </li>
             </ul>
           </div>

@@ -9,13 +9,13 @@ interface HeroProps {
 export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" role="banner" aria-label="Hero section for India Property Expo 2026">
-      {/* Background Image - Singapore Skyline */}
-      <div 
+      {/* Background Image - Doha Skyline */}
+      <div
         className="absolute inset-0 z-0 will-change-auto"
         role="img"
-        aria-label="Singapore skyline at night"
+        aria-label="Doha skyline at night"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1628933978056-81ee94ad6856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTaW5nYXBvcmUlMjBza3lsaW5lJTIwbmlnaHR8ZW58MXx8fHwxNzY3MTY0MDM0fDA&ixlib=rb-4.1.0&q=80&w=1080')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1733919618356-27fa4bd895c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -42,7 +42,7 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
             <div className="inline-flex items-center space-x-3 mb-6 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
               <span className="w-2.5 h-2.5 bg-orange-500 rounded-full animate-ping absolute" />
               <span className="w-2.5 h-2.5 bg-orange-500 rounded-full" />
-              <span className="text-orange-300 font-semibold tracking-wider uppercase text-sm">Exclusive Singapore Edition 2026</span>
+              <span className="text-orange-300 font-semibold tracking-wider uppercase text-sm">Exclusive Qatar Edition 2026</span>
             </div>
             
             {/* Main Headline */}
@@ -52,11 +52,11 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
               </span>
               <br />
               <span className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mt-2 inline-block">
-                IN SINGAPORE 2026
+                IN QATAR 2026
               </span>
             </h1>
 
-            {/* Subheadline - MAS Compliant: Informational */}
+            {/* Subheadline - Informational only */}
             <p className="text-xl md:text-2xl text-gray-100 font-medium max-w-3xl mx-auto mb-8 leading-relaxed">
               Meet <span className="text-orange-400 font-bold">35+ Trusted Developers</span> Face-to-Face • Explore <span className="text-green-400 font-bold">500+ Verified Projects</span> • Discover <span className="text-white font-bold">Curated Insights & Offerings</span>
             </p>
@@ -66,7 +66,7 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
               <Button 
                 onClick={onRegisterClick}
                 className="bg-gradient-to-r from-orange-600 to-orange-500 hover:from-orange-700 hover:to-orange-600 text-white font-bold text-xl px-12 py-7 rounded-full shadow-[0_0_40px_rgba(249,115,22,0.6)] hover:shadow-[0_0_60px_rgba(249,115,22,0.8)] transition-all duration-300 transform hover:scale-105 animate-bounce"
-                aria-label="Register for free India Property Expo in Singapore"
+                aria-label="Register for free India Property Expo in Qatar"
               >
                 🎯 REGISTER FREE NOW
               </Button>
@@ -132,9 +132,9 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
                   <Calendar className="text-white w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl text-orange-300 mb-1">21st NOV & 22nd NOV</h3>
-                  <p className="text-orange-200 font-medium">Saturday - Sunday</p>
-                  <p className="text-orange-300 text-sm mt-1">10:00 AM - 7:00 PM</p>
+                  <h3 className="font-bold text-2xl text-orange-300 mb-1">Date Confirmed on RSVP</h3>
+                  <p className="text-orange-200 font-medium">December 2026, Doha</p>
+                  <p className="text-orange-300 text-sm mt-1">Exact date shared with RSVPs</p>
                 </div>
               </div>
             </div>
@@ -146,9 +146,9 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
                   <MapPin className="text-white w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl text-green-300 mb-1">Sheraton Towers</h3>
-                  <p className="text-green-200 text-sm">39 Scotts Road</p>
-                  <p className="text-green-300 text-sm mt-1">Singapore 228230</p>
+                  <h3 className="font-bold text-xl text-green-300 mb-1">5-Star Hotel, Doha</h3>
+                  <p className="text-green-200 text-sm">Exact venue shared</p>
+                  <p className="text-green-300 text-sm mt-1">upon registration</p>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ export function Hero({ onRegisterClick, onNavigateToWealth }: HeroProps) {
                 </div>
                 <div>
                   <h3 className="font-bold text-xl text-orange-300 mb-1">FREE Entry</h3>
-                  <p className="text-orange-200 text-sm">Complimentary High Tea</p>
+                  <p className="text-orange-200 text-sm">Complimentary Refreshments</p>
                   <p className="text-orange-300 text-sm mt-1">Expert Consultations</p>
                 </div>
               </div>

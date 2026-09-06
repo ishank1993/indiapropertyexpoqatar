@@ -6,14 +6,14 @@ import { LazyImage } from "@/components/common/LazyImage";
 interface GalleryImage {
   url: string;
   title: string;
-  category: "event" | "singapore" | "networking";
+  category: "event" | "qatar" | "networking";
 }
 
 const galleryImages: GalleryImage[] = [
   {
-    url: "/images/gallery/singapore-3.jpg",
-    title: "Singapore Landmark",
-    category: "singapore"
+    url: "/images/gallery/qatar-1.jpg",
+    title: "Doha Skyline at Night",
+    category: "qatar"
   },
   {
     url: "/images/gallery/event-1.jpg",
@@ -26,19 +26,14 @@ const galleryImages: GalleryImage[] = [
     category: "networking"
   },
   {
-    url: "/images/gallery/singapore-7.jpg",
-    title: "Singapore Views",
-    category: "singapore"
-  },
-  {
     url: "/images/gallery/event-5.jpg",
     title: "Exhibition Hall",
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-1.jpg",
-    title: "Marina Bay",
-    category: "singapore"
+    url: "/images/gallery/qatar-2.jpg",
+    title: "Doha Skyline by the Bay",
+    category: "qatar"
   },
   {
     url: "/images/gallery/networking-4.jpg",
@@ -51,11 +46,6 @@ const galleryImages: GalleryImage[] = [
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-11.jpg",
-    title: "Singapore Cityscape",
-    category: "singapore"
-  },
-  {
     url: "/images/gallery/networking-1.jpg",
     title: "Professional Meeting",
     category: "networking"
@@ -66,9 +56,9 @@ const galleryImages: GalleryImage[] = [
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-5.jpg",
-    title: "Gardens by the Bay",
-    category: "singapore"
+    url: "/images/gallery/qatar-3.jpg",
+    title: "Museum of Islamic Art, Doha",
+    category: "qatar"
   },
   {
     url: "/images/gallery/event-10.jpg",
@@ -76,29 +66,14 @@ const galleryImages: GalleryImage[] = [
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-9.jpg",
-    title: "Sentosa Island",
-    category: "singapore"
-  },
-  {
     url: "/images/gallery/networking-6.jpg",
     title: "Networking Session",
     category: "networking"
   },
   {
-    url: "/images/gallery/singapore-2.jpg",
-    title: "Singapore Skyline",
-    category: "singapore"
-  },
-  {
     url: "/images/gallery/event-7.jpg",
     title: "Past NRI Expo",
     category: "event"
-  },
-  {
-    url: "/images/gallery/singapore-12.jpg",
-    title: "Little India",
-    category: "singapore"
   },
   {
     url: "/images/gallery/networking-3.jpg",
@@ -111,19 +86,14 @@ const galleryImages: GalleryImage[] = [
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-4.jpg",
-    title: "Chinatown",
-    category: "singapore"
+    url: "/images/gallery/qatar-4.jpg",
+    title: "The Pearl-Qatar",
+    category: "qatar"
   },
   {
     url: "/images/gallery/event-9.jpg",
     title: "Trade Show",
     category: "event"
-  },
-  {
-    url: "/images/gallery/singapore-6.jpg",
-    title: "Singapore Architecture",
-    category: "singapore"
   },
   {
     url: "/images/gallery/networking-5.jpg",
@@ -136,29 +106,19 @@ const galleryImages: GalleryImage[] = [
     category: "event"
   },
   {
-    url: "/images/gallery/singapore-8.jpg",
-    title: "Singapore at Night",
-    category: "singapore"
-  },
-  {
     url: "/images/gallery/event-6.jpg",
     title: "Property Fair",
     category: "event"
-  },
-  {
-    url: "/images/gallery/singapore-10.jpg",
-    title: "Merlion Park",
-    category: "singapore"
   }
 ];
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
-  const [activeFilter, setActiveFilter] = useState<"all" | "event" | "singapore" | "networking">("all");
+  const [activeFilter, setActiveFilter] = useState<"all" | "event" | "qatar" | "networking">("all");
   const [showAll, setShowAll] = useState(false);
 
-  const filteredImages = activeFilter === "all" 
-    ? galleryImages 
+  const filteredImages = activeFilter === "all"
+    ? galleryImages
     : galleryImages.filter(img => img.category === activeFilter);
 
   // Show only 4 images on mobile initially, all on desktop
@@ -182,7 +142,7 @@ export function Gallery() {
     <section className="py-20 bg-gradient-to-b from-white via-orange-50/30 to-white relative overflow-hidden">
       {/* Background patterns */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#FF6B35_1px,transparent_1px)] [background-size:20px_20px]" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-12">
@@ -191,10 +151,10 @@ export function Gallery() {
             Photo Gallery
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
-            Experience the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-green-600">India-Singapore Connection</span>
+            Experience the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-green-600">India-Qatar Connection</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Glimpses from our past expos and the beautiful city of Singapore
+            Glimpses from our past expos and the beautiful city of Doha
           </p>
         </div>
 
@@ -203,7 +163,7 @@ export function Gallery() {
           {[
             { key: "all", label: "All Photos" },
             { key: "event", label: "Past Events" },
-            { key: "singapore", label: "Singapore" },
+            { key: "qatar", label: "Doha" },
             { key: "networking", label: "Networking" }
           ].map(filter => (
             <button
@@ -224,7 +184,7 @@ export function Gallery() {
         </div>
 
         {/* Gallery Grid */}
-        <motion.div 
+        <motion.div
           layout
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
         >
@@ -250,25 +210,25 @@ export function Gallery() {
               {/* Image */}
               <LazyImage
                 src={image.url}
-                alt={`${image.title} - India Property Expo Singapore 2026`}
+                alt={`${image.title} - India Property Expo Qatar 2026`}
                 width={400}
                 height={400}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              
+
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-white font-bold text-lg">{image.title}</h3>
                   <div className="mt-2">
                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${
-                      image.category === "event" 
-                        ? "bg-orange-500 text-white" 
-                        : image.category === "singapore"
+                      image.category === "event"
+                        ? "bg-orange-500 text-white"
+                        : image.category === "qatar"
                         ? "bg-green-500 text-white"
                         : "bg-gradient-to-r from-orange-500 to-green-500 text-white"
                     }`}>
-                      {image.category === "event" ? "Past Event" : image.category === "singapore" ? "Singapore" : "Networking"}
+                      {image.category === "event" ? "Past Event" : image.category === "qatar" ? "Doha" : "Networking"}
                     </span>
                   </div>
                 </div>
@@ -298,7 +258,7 @@ export function Gallery() {
         {/* Bottom Text */}
         <div className="text-center mt-12">
           <p className="text-gray-600 text-lg">
-            📸 More photos will be added from the upcoming <span className="font-bold text-orange-600">November 21st & 22nd</span> event!
+            📸 More photos will be added from the upcoming <span className="font-bold text-orange-600">December 19th & 20th</span> event!
           </p>
         </div>
       </div>
@@ -352,7 +312,7 @@ export function Gallery() {
             >
               <img
                 src={filteredImages[selectedImage].url}
-                alt={`${filteredImages[selectedImage].title} - India Property Expo Singapore 2026`}
+                alt={`${filteredImages[selectedImage].title} - India Property Expo Qatar 2026`}
                 width="1200"
                 height="800"
                 loading="eager"
@@ -363,13 +323,13 @@ export function Gallery() {
                   {filteredImages[selectedImage].title}
                 </h3>
                 <span className={`inline-block px-4 py-2 rounded-full text-sm font-semibold ${
-                  filteredImages[selectedImage].category === "event" 
-                    ? "bg-orange-500 text-white" 
-                    : filteredImages[selectedImage].category === "singapore"
+                  filteredImages[selectedImage].category === "event"
+                    ? "bg-orange-500 text-white"
+                    : filteredImages[selectedImage].category === "qatar"
                     ? "bg-green-500 text-white"
                     : "bg-gradient-to-r from-orange-500 to-green-500 text-white"
                 }`}>
-                  {filteredImages[selectedImage].category === "event" ? "Past Event" : filteredImages[selectedImage].category === "singapore" ? "Singapore" : "Networking"}
+                  {filteredImages[selectedImage].category === "event" ? "Past Event" : filteredImages[selectedImage].category === "qatar" ? "Doha" : "Networking"}
                 </span>
               </div>
             </motion.div>

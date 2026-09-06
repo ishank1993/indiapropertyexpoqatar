@@ -67,9 +67,9 @@ export function Disclaimer() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Compliance with MAS/MARS Regulations (Singapore)</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Compliance with Qatar Regulations</h2>
             <p className="text-gray-700 leading-relaxed">
-              This website is informational only and complies with the Monetary Authority of Singapore (MAS) advertising regulations. We do not provide financial advisory services regulated under the Financial Advisers Act (FAA) or Securities and Futures Act (SFA).
+              This website is informational only. We do not provide financial advisory services regulated under Qatar Central Bank (QCB) Law or Qatar Financial Markets Authority (QFMA) regulations.
             </p>
             <p className="text-gray-700 leading-relaxed mt-4">
               Any property investment information presented is general in nature and not tailored to individual financial situations, risk profiles, or investment objectives.
@@ -98,7 +98,7 @@ export function Disclaimer() {
               Before making any property investment or financial decision, users MUST consult:
             </p>
             <ul className="list-disc pl-6 space-y-3 text-gray-700">
-              <li><strong>Licensed Financial Advisor:</strong> Registered with MAS (Singapore) or SEBI (India)</li>
+              <li><strong>Licensed Financial Advisor:</strong> Registered with QFMA (Qatar) or SEBI (India)</li>
               <li><strong>Tax Consultant:</strong> Qualified chartered accountant familiar with NRI taxation</li>
               <li><strong>Legal Attorney:</strong> Specialist in property law and cross-border transactions</li>
               <li><strong>Immigration Consultant:</strong> For residency or visa-related queries</li>

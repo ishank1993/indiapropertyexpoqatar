@@ -23,14 +23,13 @@ This folder contains photos for the event photo gallery on your website.
 - Event venue shots
 - Registration desk photos
 
-### Singapore Photos (singapore-1.jpg, singapore-2.jpg, etc.)
-- Marina Bay Sands
-- Merlion
-- Gardens by the Bay
-- Chinatown
-- Little India
-- Sentosa Island
-- Singapore skyline
+### Doha/Qatar Photos (qatar-1.jpg, qatar-2.jpg, etc.)
+- Doha skyline (day and night)
+- Museum of Islamic Art
+- The Pearl-Qatar
+- Souq Waqif
+- Katara Cultural Village
+- Doha Corniche
 
 ### Networking Photos (networking-1.jpg, networking-2.jpg, etc.)
 - Business meetings
@@ -49,13 +48,10 @@ This folder contains photos for the event photo gallery on your website.
 ```
 event-1.jpg
 event-2.jpg
-singapore-1.jpg
-singapore-2.jpg
-singapore-3.jpg
-singapore-4.jpg
-singapore-5.jpg
-singapore-6.jpg
-singapore-7.jpg
+qatar-1.jpg
+qatar-2.jpg
+qatar-3.jpg
+qatar-4.jpg
 networking-1.jpg
 networking-2.jpg
 ```

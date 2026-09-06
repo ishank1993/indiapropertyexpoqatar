@@ -43,13 +43,13 @@ const builders = [
 export function BuilderLogos() {
   return (
     <section className="py-20 relative overflow-hidden" aria-labelledby="builders-heading">
-      {/* Background with Singapore Daytime Skyline */}
-      <div 
+      {/* Background with Doha Daytime Skyline */}
+      <div
         className="absolute inset-0 z-0"
         role="img"
-        aria-label="Singapore daytime skyline background"
+        aria-label="Doha daytime skyline background"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1610956667016-15debe929a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxTaW5nYXBvcmUlMjBza3lsaW5lJTIwZGF5dGltZXxlbnwxfHx8fDE3NjcxNjc3MTd8MA&ixlib=rb-4.1.0&q=80&w=1080')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1596986343464-332d54fa5702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

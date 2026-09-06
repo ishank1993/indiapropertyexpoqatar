@@ -8,19 +8,19 @@ import {
 
 const faqs = [
   {
-    question: "Who can attend the India Property Expo 2026 in Singapore?",
+    question: "Who can attend the India Property Expo 2026 in Qatar?",
     answer: "The expo is open to all NRIs, PIOs, OCIs, and Resident Indians abroad who are interested in exploring property options in India. Whether you're a first-time buyer or an experienced investor, you're welcome to attend. Entry is FREE with pre-registration."
   },
   {
     question: "Is there any entry fee for the expo?",
-    answer: "No, entry to the India Property Expo 2026 is completely FREE. You just need to register online in advance to secure your free pass. This includes access to all exhibitors, educational sessions, and complimentary high tea."
+    answer: "No, entry to the India Property Expo 2026 is completely FREE. You just need to register online in advance to secure your free pass. This includes access to all exhibitors, educational sessions, and complimentary refreshments."
   },
   {
     question: "What types of properties will be showcased?",
     answer: "The expo features 500+ premium projects including residential apartments, luxury villas, plotted developments, commercial properties, and GIFT City property options. Properties are available across 35+ major cities including Mumbai, Bangalore, Delhi NCR, Pune, Hyderabad, Chennai, and Goa, with prices ranging from ₹30 lakhs to ₹200 crores."
   },
   {
-    question: "How do I invest in Indian property as an NRI from Singapore?",
+    question: "How do I invest in Indian property as an NRI from Qatar?",
     answer: "NRIs can purchase residential and commercial properties in India (excluding agricultural land). The process involves: (1) Opening an NRE/NRO bank account, (2) Obtaining a PAN card, (3) Conducting property verification, (4) Completing legal documentation, (5) Making payment through proper banking channels. Our expo provides expert guidance on each step, including NRI home loan assistance and legal support."
   },
   {
@@ -57,11 +57,11 @@ const faqs = [
   },
   {
     question: "Is my personal information safe when I register?",
-    answer: "Yes, we take data privacy seriously and comply with Singapore's PDPA regulations. Your information is encrypted, securely stored, and used only for expo-related communication. We never sell your data to third parties. You can request data deletion anytime by contacting info@nrinivesh.in. Please review our Privacy Policy for complete details."
+    answer: "Yes, we take data privacy seriously and comply with Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016). Your information is encrypted, securely stored, and used only for expo-related communication. We never sell your data to third parties. You can request data deletion anytime by contacting info@nrinivesh.in. Please review our Privacy Policy for complete details."
   },
   {
     question: "What are the event dates, timings, and venue?",
-    answer: "The India Property Expo 2026 will be held on Saturday, 21st November and Sunday, 22nd November 2026, from 10:00 AM to 7:00 PM each day. The venue is Sheraton Towers Singapore, located at 39 Scotts Road, Singapore 228230. It's conveniently accessible via MRT (Newton station, 5 min walk) and has ample parking facilities."
+    answer: "The India Property Expo 2026 will be held in December 2026 at a premium 5-star hotel in Doha, Qatar, from 10:00 AM to 7:00 PM. The exact date is being finalized — RSVP now and we'll confirm the date along with the exact hotel name, address, and parking details directly via WhatsApp and email."
   },
   {
     question: "Will there be any special offers or pre-launch projects?",

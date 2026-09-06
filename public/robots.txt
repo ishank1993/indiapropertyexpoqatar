@@ -1,4 +1,4 @@
-# robots.txt for NRI Nivesh India Property Expo 2026 (Singapore)
+# robots.txt for NRI Nivesh India Property Expo 2026 (Qatar)
 
 User-agent: *
 Allow: /
@@ -16,7 +16,7 @@ Allow: /site.webmanifest
 Allow: /browserconfig.xml
 
 # Sitemap
-Sitemap: https://nriniveshexposg.com/sitemap.xml
+Sitemap: https://indiapropertyexpoqatar.com/sitemap.xml
 
 # ------------------------------------------------------------------
 # Search engines

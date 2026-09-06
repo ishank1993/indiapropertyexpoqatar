@@ -38,7 +38,7 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
     name: "",
     email: "",
     whatsapp: "",
-    country: "Singapore"
+    country: "Qatar"
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -99,7 +99,7 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
                 </span>
               </h1>
 
-              {/* Subheadline - MAS Compliant */}
+              {/* Subheadline - Informational only */}
               <p className="text-xl md:text-2xl text-gray-600 font-medium max-w-4xl mx-auto mb-8 leading-relaxed">
                 Many NRIs struggle to resolve taxation and regulatory issues while living abroad. NRIs also want clarity on what is happening inside GIFT City across multi-currency regulations, compliance, taxation, repatriation, banking and more — this pavilion is designed to educate, simplify and guide NRIs through these complex topics.
               </p>
@@ -326,7 +326,7 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
 
                   <div className="space-y-4 mb-8">
                     {[
-                      "NRI tax filing for India + UAE + Canada + UK + Singapore",
+                      "NRI tax filing for India + UAE + Qatar + Canada + UK",
                       "DTAA (Double Taxation Avoidance Agreement) planning",
                       "Avoiding double tax on global income",
                       "TDS optimization on Indian investments",
@@ -482,7 +482,7 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
                 <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-green-600">Event Venue</span>
                 </h2>
-                <p className="text-xl text-gray-600">Join us at Sheraton Towers Singapore, Scotts Road</p>
+                <p className="text-xl text-gray-600">Join us at a premium 5-star hotel in Doha, Qatar</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 bg-white rounded-3xl shadow-2xl overflow-hidden">
@@ -493,10 +493,10 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
                       <Landmark className="text-white w-6 h-6" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-xl text-gray-800">Sheraton Towers Singapore</h3>
+                      <h3 className="font-bold text-xl text-gray-800">5-Star Hotel, Doha</h3>
                       <p className="text-gray-600 mt-1">
-                        39 Scotts Road,<br />
-                        Singapore 228230
+                        Exact hotel name and address are shared<br />
+                        with registered attendees via WhatsApp and email.
                       </p>
                     </div>
                   </div>
@@ -508,30 +508,30 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
                     <div>
                       <h3 className="font-bold text-xl text-gray-800">Event Date</h3>
                       <p className="text-gray-600 mt-1">
-                        21st & 22nd November 2026 | 10am–7pm<br />
-                        Check-in starts 30 minutes before sessions
+                        December 2026 | 10am–7pm | Doha<br />
+                        Exact date confirmed via RSVP
                       </p>
                     </div>
                   </div>
 
-                  <Button 
-                    onClick={() => window.open('https://www.google.com/maps/dir//Sheraton+Towers+Singapore,+39+Scotts+Road,+Singapore+228230', '_blank')}
+                  <Button
+                    onClick={onRegisterClick}
                     className="w-fit bg-gradient-to-r from-orange-600 to-green-600 hover:from-orange-700 hover:to-green-700 text-white font-bold shadow-lg hover:shadow-xl transition-all"
                   >
-                    📍 Get Directions
+                    📍 RSVP to Get Venue Details
                   </Button>
                 </div>
 
                 {/* Right: Map */}
                 <div className="h-[400px] md:h-auto w-full bg-gray-200">
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.774656757!2d103.8282837!3d1.3083553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1991f44e0169%3A0x7ff4a8da58234d97!2sSheraton%20Towers%20Singapore!5e0!3m2!1sen!2ssg!4v1629876543210!5m2!1sen!2ssg" 
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen={true} 
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115821.62!2d51.4166!3d25.2854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c527ad6e480d%3A0x21e42102a1c9d5b!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sqa!4v1629876543210!5m2!1sen!2sqa"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen={true}
                     loading="lazy"
-                    title="Google Map"
+                    title="Doha, Qatar Map"
                   />
                 </div>
               </div>
@@ -608,7 +608,7 @@ export function WealthPage({ onRegisterClick, onNavigateHome, onNavigateWealth, 
                       onChange={(e) => setFormData({ ...formData, country: e.target.value })}
                       className="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-orange-500 focus:outline-none transition-colors"
                     >
-                      <option value="Singapore">Singapore</option>
+                      <option value="Qatar">Qatar</option>
                       <option value="UAE">UAE</option>
                       <option value="UK">United Kingdom</option>
                       <option value="USA">United States</option>

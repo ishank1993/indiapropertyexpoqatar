@@ -23,20 +23,20 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distDir = path.resolve(__dirname, "../dist");
 const PORT = 4321;
-const SITE_URL = "https://nriniveshexposg.com";
+const SITE_URL = "https://indiapropertyexpoqatar.com";
 
 // Keep in sync with the slugs in src/app/content/blogPosts.ts.
 const blogSlugs = [
-  "buying-property-india-from-singapore-nri-guide",
-  "gift-city-vs-real-estate-singapore-nri",
-  "nri-property-tax-filing-singapore",
-  "best-bangalore-projects-nri-investment-singapore",
-  "pune-vs-hyderabad-property-investment-nri-singapore",
-  "luxury-real-estate-mumbai-gurgaon-nri-singapore",
-  "nri-home-loan-guide-singapore",
+  "buying-property-india-from-qatar-nri-guide",
+  "gift-city-vs-real-estate-qatar-nri",
+  "nri-property-tax-filing-qatar",
+  "best-bangalore-projects-nri-investment-qatar",
+  "pune-vs-hyderabad-property-investment-nri-qatar",
+  "luxury-real-estate-mumbai-gurgaon-nri-qatar",
+  "nri-home-loan-guide-qatar",
   "nri-inheritance-succession-indian-property",
-  "goa-property-investment-nri-singapore",
-  "nri-property-investment-mistakes-singapore",
+  "goa-property-investment-nri-qatar",
+  "nri-property-investment-mistakes-qatar",
 ];
 
 const routes = [
@@ -127,7 +127,7 @@ async function run() {
         let html = await page.content();
         html = html
           .replace(/https?:\/\/(localhost|127\.0\.0\.1):\d+/gi, SITE_URL)
-          .replace(/domain=(localhost|127\.0\.0\.1)(%3A\d+|:\d+)?/gi, "domain=nriniveshexposg.com");
+          .replace(/domain=(localhost|127\.0\.0\.1)(%3A\d+|:\d+)?/gi, "domain=indiapropertyexpoqatar.com");
 
         const outDir = route === "/" ? distDir : path.join(distDir, route);
         await mkdir(outDir, { recursive: true });

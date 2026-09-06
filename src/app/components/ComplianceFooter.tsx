@@ -19,16 +19,16 @@ export function ComplianceFooter() {
 
         <div className="border-t border-gray-700 pt-4">
           <p className="text-gray-400 text-xs leading-relaxed">
-            <strong className="text-gray-300">MAS/MARS Compliance (Singapore):</strong> This platform is informational only and does not provide financial advisory services regulated under Singapore's Financial Advisers Act (FAA) or Securities and Futures Act (SFA). 
-            Information presented is general in nature and not tailored to individual circumstances. 
-            Users must consult licensed professionals (SEBI-registered advisors in India, MAS-licensed advisors in Singapore, qualified tax consultants, and legal attorneys) before making any investment decisions. 
+            <strong className="text-gray-300">Qatar Compliance:</strong> This platform is informational only and does not provide financial advisory services regulated under Qatar Central Bank (QCB) Law or Qatar Financial Markets Authority (QFMA) regulations.
+            Information presented is general in nature and not tailored to individual circumstances.
+            Users must consult licensed professionals (SEBI-registered advisors in India, QFMA-licensed advisors in Qatar, qualified tax consultants, and legal attorneys) before making any investment decisions.
             NRI Nivesh disclaims all liability for losses or damages arising from reliance on information provided on this platform.
           </p>
         </div>
 
         <div className="mt-4 pt-4 border-t border-gray-700">
           <p className="text-gray-400 text-xs">
-            <strong className="text-gray-300">Data Protection:</strong> We comply with Singapore's Personal Data Protection Act (PDPA). 
+            <strong className="text-gray-300">Data Protection:</strong> We comply with Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016).
             Your personal information is collected with consent, securely stored, and used only for expo-related communications. 
             We never sell your data. You have the right to access, correct, or delete your information anytime. 
             Contact: <a href="mailto:info@nrinivesh.in" className="text-orange-500 underline">info@nrinivesh.in</a>

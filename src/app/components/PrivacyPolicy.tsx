@@ -54,9 +54,9 @@ export function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Legal Basis for Processing (PDPA Compliance)</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Legal Basis for Processing (PDPPL Compliance)</h2>
             <p className="text-gray-700 leading-relaxed mb-3">
-              Under Singapore's Personal Data Protection Act (PDPA), we process your data based on:
+              Under Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016), we process your data based on:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700">
               <li><strong>Consent:</strong> You provide consent when registering for events or subscribing to newsletters</li>
@@ -136,7 +136,7 @@ export function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. International Data Transfers</h2>
             <p className="text-gray-700 leading-relaxed">
-              Your data may be transferred to and processed in countries outside Singapore, including India and other regions where our service providers operate. We ensure adequate safeguards are in place to protect your data in accordance with PDPA requirements.
+              Your data may be transferred to and processed in countries outside Qatar, including India and other regions where our service providers operate. We ensure adequate safeguards are in place to protect your data in accordance with PDPPL requirements.
             </p>
           </section>
 

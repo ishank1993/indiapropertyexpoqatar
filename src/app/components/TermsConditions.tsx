@@ -106,7 +106,7 @@ export function TermsConditions() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Data Protection & Privacy</h2>
             <p className="text-gray-700 leading-relaxed">
-              Your use of this website is also governed by our Privacy Policy. We collect, store, and process personal data in accordance with applicable data protection laws including PDPA (Singapore).
+              Your use of this website is also governed by our Privacy Policy. We collect, store, and process personal data in accordance with applicable data protection laws including Qatar's Personal Data Privacy Protection Law (PDPPL).
             </p>
           </section>
 
@@ -120,7 +120,7 @@ export function TermsConditions() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Governing Law & Jurisdiction</h2>
             <p className="text-gray-700 leading-relaxed">
-              These terms are governed by the laws of Singapore. Any dispute arising from the use of this website will be subject to the exclusive jurisdiction of the courts in Singapore.
+              These terms are governed by the laws of the State of Qatar. Any dispute arising from the use of this website will be subject to the exclusive jurisdiction of the courts in Qatar.
             </p>
           </section>
 

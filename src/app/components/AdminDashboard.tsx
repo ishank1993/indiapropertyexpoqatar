@@ -150,15 +150,20 @@ export function AdminDashboard() {
   };
 
   const formatDate = (dateString: string) => {
-    // Google Sheets already returns a pre-formatted SGT string
+    // Google Sheets already returns a pre-formatted timestamp string
     return dateString || "-";
   };
 
   const formatDateOfVisit = (value: string) => {
     const map: Record<string, string> = {
+      "weekday": "Weekday (date TBC)",
+      "weekend": "Weekend (date TBC)",
+      "either": "Either (date TBC)",
+      // Legacy values (for historical records, back when a fixed date was promised)
+      "dec-19": "19 Dec 2026",
+      "dec-20": "20 Dec 2026",
       "nov-21": "21 Nov 2026",
       "nov-22": "22 Nov 2026",
-      // Legacy values (for historical records)
       "sep-5": "5 Sep 2026",
       "sep-6": "6 Sep 2026",
       "aug-1": "1 Aug 2026",
@@ -240,9 +245,9 @@ export function AdminDashboard() {
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-green-600 font-semibold">21st Nov Visitors</p>
+                    <p className="text-sm text-green-600 font-semibold">Weekday Preference</p>
                     <p className="text-3xl font-bold text-green-700">
-                      {registrations.filter(r => r.dateOfVisit === "nov-21" || r.dateOfVisit === "sep-5" || r.dateOfVisit === "aug-1" || r.dateOfVisit === "apr-18" || r.dateOfVisit === "both").length}
+                      {registrations.filter(r => r.dateOfVisit === "weekday" || r.dateOfVisit === "either" || r.dateOfVisit === "dec-19" || r.dateOfVisit === "nov-21" || r.dateOfVisit === "sep-5" || r.dateOfVisit === "aug-1" || r.dateOfVisit === "apr-18" || r.dateOfVisit === "both").length}
                     </p>
                   </div>
                   <div className="text-2xl">📅</div>
@@ -254,9 +259,9 @@ export function AdminDashboard() {
               <CardContent className="pt-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-blue-600 font-semibold">22nd Nov Visitors</p>
+                    <p className="text-sm text-blue-600 font-semibold">Weekend Preference</p>
                     <p className="text-3xl font-bold text-blue-700">
-                      {registrations.filter(r => r.dateOfVisit === "nov-22" || r.dateOfVisit === "sep-6" || r.dateOfVisit === "aug-2" || r.dateOfVisit === "apr-19" || r.dateOfVisit === "both").length}
+                      {registrations.filter(r => r.dateOfVisit === "weekend" || r.dateOfVisit === "either" || r.dateOfVisit === "dec-20" || r.dateOfVisit === "nov-22" || r.dateOfVisit === "sep-6" || r.dateOfVisit === "aug-2" || r.dateOfVisit === "apr-19" || r.dateOfVisit === "both").length}
                     </p>
                   </div>
                   <div className="text-2xl">📅</div>

@@ -86,7 +86,7 @@ export function Navbar({ onRegisterClick, onNavigateHome, onNavigateWealth, curr
         >
           <img 
             src="/logo.png" 
-            alt="NRI Nivesh - India Property Expo Singapore logo" 
+            alt="NRI Nivesh - India Property Expo Qatar logo"
             width="160"
             height="48"
             loading="eager"

@@ -23,10 +23,11 @@ interface RegistrationModalProps {
   onSuccess?: () => void;
 }
 
-// Country codes with Singapore as default
+// Country codes with Qatar as default
 const countryCodes = [
-  { code: "+65", country: "Singapore", flag: "🇸🇬" },
+  { code: "+974", country: "Qatar", flag: "🇶🇦" },
   { code: "+91", country: "India", flag: "🇮🇳" },
+  { code: "+65", country: "Singapore", flag: "🇸🇬" },
   { code: "+1", country: "USA/Canada", flag: "🇺🇸" },
   { code: "+44", country: "UK", flag: "🇬🇧" },
   { code: "+61", country: "Australia", flag: "🇦🇺" },
@@ -70,7 +71,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
-    countryCode: "+65",
+    countryCode: "+974",
     phone: "",
     dateOfVisit: "",
     preferredCity: "",
@@ -132,13 +133,13 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
         phone: `${formData.countryCode}${formData.phone}`,
         firstName: formData.fullName,
         city: formData.preferredCity,
-        country: 'SG'
+        country: 'QA'
       }, {
         event_type: 'property_expo_registration',
         date_of_visit: formData.dateOfVisit,
         preferred_city: formData.preferredCity,
         value: 0,
-        currency: 'SGD'
+        currency: 'QAR'
       });
 
       setIsSuccess(true);
@@ -151,7 +152,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
         setFormData({
           fullName: "",
           email: "",
-          countryCode: "+65",
+          countryCode: "+974",
           phone: "",
           dateOfVisit: "",
           preferredCity: "",
@@ -174,12 +175,12 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
         <DialogContent className="sm:max-w-md">
           <div className="flex flex-col items-center justify-center py-8 sm:py-12 text-center">
             <CheckCircle2 className="w-16 h-16 sm:w-20 sm:h-20 text-green-500 mb-4 sm:mb-6 animate-bounce" />
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">🎉 You're Registered!</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">🎉 Your RSVP is Confirmed!</h3>
             <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4 px-2">
-              Your free pass is confirmed. Check your email for event details and exclusive pre-launch offers.
+              Your free pass is reserved. We'll email and WhatsApp you the confirmed event date and venue details closer to the expo.
             </p>
             <p className="text-xs sm:text-sm text-orange-600 font-semibold px-2">
-              See you at Sheraton Towers on 21st Nov or 22nd Nov!
+              See you in Doha this December — keep an eye on your inbox for the exact date!
             </p>
           </div>
         </DialogContent>
@@ -195,9 +196,9 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
             🎯 Secure Your FREE Pass
           </DialogTitle>
           <DialogDescription className="text-center text-[10px] sm:text-base px-1 sm:px-2 leading-tight sm:leading-normal">
-            Singapore's Largest India Property Exhibition
+            Qatar's Largest India Property Exhibition
             <br className="hidden sm:block" />
-            <span className="text-orange-600 font-semibold text-[10px] sm:text-base"> 📅 21 Nov & 22 Nov 2026</span>
+            <span className="text-orange-600 font-semibold text-[10px] sm:text-base"> 📅 RSVP now — exact date shared with confirmed attendees</span>
           </DialogDescription>
         </DialogHeader>
 
@@ -265,17 +266,20 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
             </div>
           </div>
 
-          {/* Date of Visit */}
+          {/* Preferred Day (date to be confirmed) */}
           <div className="space-y-1 sm:space-y-1.5">
-            <Label htmlFor="dateOfVisit" className="text-xs sm:text-sm">When Will You Visit? (Optional)</Label>
+            <Label htmlFor="dateOfVisit" className="text-xs sm:text-sm">Preferred Day (Optional)</Label>
+            <p className="text-[9px] sm:text-xs text-gray-500 -mt-0.5 mb-1">
+              Exact date is still being finalized — we'll RSVP you once it's confirmed
+            </p>
             <Select onValueChange={(value) => handleInputChange("dateOfVisit", value)}>
               <SelectTrigger className="h-9 sm:h-10 text-xs sm:text-sm">
-                <SelectValue placeholder="Select your preferred date" />
+                <SelectValue placeholder="Select your preference" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="nov-21" className="text-xs sm:text-sm">21st Nov (Sat) 10am-7pm</SelectItem>
-                <SelectItem value="nov-22" className="text-xs sm:text-sm">22nd Nov (Sun) 10am-7pm</SelectItem>
-                <SelectItem value="both" className="text-xs sm:text-sm">Both Days</SelectItem>
+                <SelectItem value="weekday" className="text-xs sm:text-sm">Weekday</SelectItem>
+                <SelectItem value="weekend" className="text-xs sm:text-sm">Weekend</SelectItem>
+                <SelectItem value="either" className="text-xs sm:text-sm">Either Works</SelectItem>
               </SelectContent>
             </Select>
           </div>

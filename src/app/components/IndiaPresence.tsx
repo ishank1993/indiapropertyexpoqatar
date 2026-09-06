@@ -42,7 +42,7 @@ export function IndiaPresence() {
               <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-orange-500/20 to-transparent border-l-4 border-orange-400 px-6 py-2 mb-8 backdrop-blur-sm">
                 <Globe className="w-4 h-4 text-orange-400" />
                 <span className="text-orange-300 text-sm font-bold tracking-[0.2em] uppercase">
-                    🇸🇬 Singapore to India Connection
+                    🇶🇦 Qatar to India Connection
                 </span>
               </div>
               
@@ -51,11 +51,11 @@ export function IndiaPresence() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-400 bg-[length:200%_auto] animate-gradient">
                     35+ Indian Cities
                 </span>
-                <span className="block text-2xl mt-4 text-orange-300">From Singapore</span>
+                <span className="block text-2xl mt-4 text-orange-300">From Qatar</span>
               </h2>
 
               <p className="text-orange-100 text-lg leading-relaxed mb-10 border-l-4 border-orange-400/50 pl-6">
-                <span className="font-semibold text-white">Exclusively for Singapore-based NRIs, PIOs & OCIs.</span> Experience the finest real estate opportunities from every major corner of India without leaving the Lion City. We bring India's premium properties to Singapore.
+                <span className="font-semibold text-white">Exclusively for Qatar-based NRIs, PIOs & OCIs.</span> Experience the finest real estate opportunities from every major corner of India without leaving Doha. We bring India's premium properties to Qatar.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mb-10">

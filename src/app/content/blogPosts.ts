@@ -32,18 +32,18 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-003 — pillar piece
   // ------------------------------------------------------------------
   {
-    slug: "buying-property-india-from-singapore-nri-guide",
-    title: "Buying Property in India from Singapore: The Complete NRI Guide",
+    slug: "buying-property-india-from-qatar-nri-guide",
+    title: "Buying Property in India from Qatar: The Complete NRI Guide",
     dek: "The payment trail, the Power of Attorney, and the due diligence checklist that decide whether your purchase is smooth or a headache.",
-    metaTitle: "Buying Property in India from Singapore: NRI Guide",
+    metaTitle: "Buying Property in India from Qatar: NRI Guide",
     metaDescription:
-      "Everything a Singapore NRI needs before buying India property — FEMA rules, financing, Power of Attorney, and due diligence, explained clearly.",
+      "Everything a Qatar NRI needs before buying India property — FEMA rules, financing, Power of Attorney, and due diligence, explained clearly.",
     publishDate: "2026-07-16",
     readingTime: "12 min read",
     content: [
       {
         type: "p",
-        text: 'Your parents have started saying "the flat" instead of "a flat." That\'s usually the sign someone\'s about to buy Indian property from Singapore for the first time, whether they\'ve admitted it to themselves yet or not.',
+        text: 'Your parents have started saying "the flat" instead of "a flat." That\'s usually the sign someone\'s about to buy Indian property from Qatar for the first time, whether they\'ve admitted it to themselves yet or not.',
       },
       {
         type: "p",
@@ -79,14 +79,14 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Why this matters more than it sounds: the payment trail is exactly what banks, registrars, and tax authorities look at if a transaction ever gets questioned — during resale, during an inheritance dispute, or during a routine income tax scrutiny years later. A clean NRE-to-seller payment trail closes that question before it's even asked. An informal route leaves you explaining yourself later, sometimes to people who weren't part of the original decision.",
       },
-      { type: "h2", text: "Financing: Getting a Home Loan as an NRI in Singapore" },
+      { type: "h2", text: "Financing: Getting a Home Loan as an NRI in Qatar" },
       {
         type: "p",
-        text: "Indian banks do lend to NRIs, and Singapore-based applicants are a well-established customer segment for most major lenders — this isn't a novelty product anyone needs to be talked into offering you.",
+        text: "Indian banks do lend to NRIs, and Qatar-based applicants are a well-established customer segment for most major lenders — this isn't a novelty product anyone needs to be talked into offering you.",
       },
       {
         type: "p",
-        text: "The loan gets repaid from your NRE or NRO account, or via direct remittance, and eligibility typically factors in your Singapore income, existing obligations, and the property's value. Specific interest rates and loan-to-value ratios vary meaningfully by bank and change with RBI policy rate movements — treat any number you see quoted online as a starting point for a conversation, not a locked-in figure, and confirm current terms directly with the lender before budgeting around them.",
+        text: "The loan gets repaid from your NRE or NRO account, or via direct remittance, and eligibility typically factors in your Qatar income, existing obligations, and the property's value. Specific interest rates and loan-to-value ratios vary meaningfully by bank and change with RBI policy rate movements — treat any number you see quoted online as a starting point for a conversation, not a locked-in figure, and confirm current terms directly with the lender before budgeting around them.",
       },
       {
         type: "p",
@@ -94,8 +94,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "This is a deliberately brief overview — eligibility criteria, realistic loan-to-value ranges, and the specific documents that speed up approval deserve their own deep dive. Our full guide to NRI home loans from Singapore covers all of it.",
-        slug: "nri-home-loan-guide-singapore",
+        text: "This is a deliberately brief overview — eligibility criteria, realistic loan-to-value ranges, and the specific documents that speed up approval deserve their own deep dive. Our full guide to NRI home loans from Qatar covers all of it.",
+        slug: "nri-home-loan-guide-qatar",
       },
       { type: "h2", text: "Managing the Purchase Remotely: Power of Attorney Done Right" },
       {
@@ -116,7 +116,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Execution: The PoA needs to be properly drafted (ideally by a lawyer familiar with NRI transactions, not a generic template), then notarized and attested through the Indian High Commission in Singapore. Skipping proper attestation is a common shortcut that creates real legal exposure later.",
+        text: "Execution: The PoA needs to be properly drafted (ideally by a lawyer familiar with NRI transactions, not a generic template), then notarized and attested through the Embassy of India in Doha, Qatar. Skipping proper attestation is a common shortcut that creates real legal exposure later.",
       },
       {
         type: "p",
@@ -145,7 +145,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "If you plan to rent the property out, that income becomes taxable in India from day one, credited to your NRO account, with its own annual filing requirement. If you plan to sell eventually, the sale triggers TDS calculated on the full sale value by default — something you can manage in advance through a Lower Deduction Certificate rather than dealing with after the fact. Our companion guide covers what happens at tax time once you own this property in full detail.",
-        slug: "nri-property-tax-filing-singapore",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "p",
@@ -153,7 +153,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "There's one more thing worth planning for now rather than later: what happens to this property after you're gone. A Singapore Will doesn't automatically cover Indian real estate, and it's a far easier conversation to have before it's urgent. Our guide to inheritance and succession planning for Indian property covers what an India-specific Will actually needs to do.",
+        text: "There's one more thing worth planning for now rather than later: what happens to this property after you're gone. A Will made under Qatari law doesn't automatically cover Indian real estate, and it's a far easier conversation to have before it's urgent. Our guide to inheritance and succession planning for Indian property covers what an India-specific Will actually needs to do.",
         slug: "nri-inheritance-succession-indian-property",
       },
       {
@@ -163,12 +163,12 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "Not sure a physical asset is even the right move for your capital? It's worth taking a step back and comparing this to a GIFT City investment before you commit.",
-        slug: "gift-city-vs-real-estate-singapore-nri",
+        slug: "gift-city-vs-real-estate-qatar-nri",
       },
       { type: "h2", text: "Buying With Confidence, Not Just Hope" },
       {
         type: "p",
-        text: "The legal path to owning property in India as a Singapore NRI has been open and clear for years. What separates a smooth purchase from a stressful one isn't luck — it's whether the payment trail, the Power of Attorney, and the due diligence were treated as seriously as the decision to buy in the first place.",
+        text: "The legal path to owning property in India as a Qatar NRI has been open and clear for years. What separates a smooth purchase from a stressful one isn't luck — it's whether the payment trail, the Power of Attorney, and the due diligence were treated as seriously as the decision to buy in the first place.",
       },
       {
         type: "quote",
@@ -177,7 +177,7 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Can NRIs in Singapore buy property in India?",
+        question: "Can NRIs in Qatar buy property in India?",
         answer:
           "Yes. NRIs can buy residential and commercial property in India without RBI permission, but not agricultural land, plantation property, or farmhouses. Payment must come from an NRE, NRO, or FCNR account or direct inward remittance, and the purchase can be managed remotely through a properly drafted Power of Attorney.",
       },
@@ -187,9 +187,9 @@ export const blogPosts: BlogPost[] = [
           "Not necessarily. With a properly drafted, narrowly scoped Power of Attorney executed by someone you trust, most of the transaction — document signing, registration, possession — can be handled without your physical presence, though many buyers still choose to visit for final verification.",
       },
       {
-        question: "Can I get a home loan from Singapore to buy Indian property?",
+        question: "Can I get a home loan from Qatar to buy Indian property?",
         answer:
-          "Yes. Most major Indian banks lend to NRIs, including those based in Singapore, with repayment from NRE, NRO accounts, or direct remittance. Loan terms depend on your income, the property value, and current bank policy — confirm exact rates and eligibility directly with the lender.",
+          "Yes. Most major Indian banks lend to NRIs, including those based in Qatar, with repayment from NRE, NRO accounts, or direct remittance. Loan terms depend on your income, the property value, and current bank policy — confirm exact rates and eligibility directly with the lender.",
       },
       {
         question: "What documents prove clear title on Indian property?",
@@ -199,15 +199,15 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is a Power of Attorney safe for buying property remotely?",
         answer:
-          "It's safe when narrowly scoped to the specific transaction, professionally drafted, and properly attested through the Indian High Commission in Singapore. It becomes risky when it's overly broad, informally drafted, or given to someone without appropriate due diligence on trust and potential conflicts of interest.",
+          "It's safe when narrowly scoped to the specific transaction, professionally drafted, and properly attested through the Embassy of India in Doha, Qatar. It becomes risky when it's overly broad, informally drafted, or given to someone without appropriate due diligence on trust and potential conflicts of interest.",
       },
       {
         question: "How much rental income tax will I owe on Indian property?",
         answer:
-          "Rental income is taxable in India from the first rupee earned, after a standard 30% deduction on net annual value and any eligible home loan interest. It must be credited to your NRO account and reported in an annual Indian tax return, regardless of whether Singapore separately taxes the income.",
+          "Rental income is taxable in India from the first rupee earned, after a standard 30% deduction on net annual value and any eligible home loan interest. It must be credited to your NRO account and reported in an annual Indian tax return — Qatar levies no personal income tax at all, so the entire filing obligation rests with India.",
       },
       {
-        question: "Can I sell the property later and bring the money back to Singapore?",
+        question: "Can I sell the property later and bring the money back to Qatar?",
         answer:
           "Yes, subject to repatriation limits — generally up to USD 1 million per financial year through the NRE route — and documentation including Form 15CA/15CB filed through your bank. TDS at the time of sale is calculated on the full sale value unless you've obtained a Lower Deduction Certificate in advance.",
       },
@@ -218,18 +218,18 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-001
   // ------------------------------------------------------------------
   {
-    slug: "gift-city-vs-real-estate-singapore-nri",
-    title: "GIFT City vs Indian Real Estate: Where Should Singapore NRIs Put Their Next Investment?",
+    slug: "gift-city-vs-real-estate-qatar-nri",
+    title: "GIFT City vs Indian Real Estate: Where Should Qatar NRIs Put Their Next Investment?",
     dek: "GIFT City and Indian real estate aren't actually solving the same problem. Here's how to choose based on what you're optimizing for.",
-    metaTitle: "GIFT City vs Real Estate: Where Singapore NRIs Invest",
+    metaTitle: "GIFT City vs Real Estate: Where Qatar NRIs Invest",
     metaDescription:
-      "A Singapore NRI's real numbers comparison — GIFT City bonds/funds vs Indian property. Tax, liquidity, repatriation, and which one actually fits you.",
+      "A Qatar NRI's real numbers comparison — GIFT City bonds/funds vs Indian property. Tax, liquidity, repatriation, and which one actually fits you.",
     publishDate: "2026-07-16",
     readingTime: "11 min read",
     content: [
       {
         type: "p",
-        text: "Three hundred and fifty thousand Indians are building careers in Singapore right now. A good number of them have a spare SGD 80,000 to 150,000 sitting in a savings account, doing nothing, while they debate two options they keep hearing about at every dinner party: a GIFT City bond or fund, or a second flat back home.",
+        text: "Nearly seven hundred thousand Indians are building careers in Qatar right now — the largest expatriate community in the country. A good number of them have a spare QAR 200,000 to 400,000 sitting in a savings account, doing nothing, while they debate two options they keep hearing about at every dinner party: a GIFT City bond or fund, or a second flat back home.",
       },
       {
         type: "p",
@@ -239,7 +239,7 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "This isn't a \"which is better\" article. It's a \"which is better for you, specifically\" article — because the honest answer depends on what you're actually optimizing for.",
       },
-      { type: "h2", text: "The Real Decision Singapore NRIs Are Facing in 2026" },
+      { type: "h2", text: "The Real Decision Qatar NRIs Are Facing in 2026" },
       {
         type: "p",
         text: "If you already have an NRE fixed deposit and a SIP running, you're past the beginner stage. The next decision is where the next chunk of capital goes — and that's where GIFT City and Indian real estate start competing for the same rupees.",
@@ -253,13 +253,13 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "GIFT City — the Gujarat International Finance Tec-City, India's dedicated International Financial Services Centre — was built specifically to let NRIs invest in India-linked instruments without routing through India's domestic banking and tax system.",
       },
-      { type: "p", text: "For a Singapore NRI, three products matter most:" },
+      { type: "p", text: "For a Qatar NRI, three products matter most:" },
       {
         type: "ul",
         items: [
           "**Rupee-denominated bonds (Masala Bonds).** These are debt instruments issued by Indian corporates and listed on the IFSC exchange. Interest on bonds listed before July 1, 2023 gets taxed at a concessional 4% rate; bonds listed after that date sit at 9% — both far below what NRI interest income normally attracts. You're taking on the issuer's credit risk, not India's sovereign risk, so due diligence on the specific bond still matters.",
-          "**Category III AIFs on specified securities.** This is the one most Singapore NRIs haven't heard of, and it's the strongest tax outcome in the entire GIFT City ecosystem — funds that invest in specified securities and derivatives on the IFSC exchange carry zero capital gains tax in India for non-residents. Not a reduced rate. Zero.",
-          "**Global Savings Accounts (foreign currency).** IFSC Banking Units let you hold USD, SGD, GBP, and a few other currencies directly, earning somewhere in the 2.5-5% range depending on currency and tenure — lower than rupee deposits, but with none of the currency conversion friction.",
+          "**Category III AIFs on specified securities.** This is the one most Qatar NRIs haven't heard of, and it's the strongest tax outcome in the entire GIFT City ecosystem — funds that invest in specified securities and derivatives on the IFSC exchange carry zero capital gains tax in India for non-residents. Not a reduced rate. Zero.",
+          "**Global Savings Accounts (foreign currency).** IFSC Banking Units let you hold USD, GBP, EUR, and a few other major currencies directly, earning somewhere in the 2.5-5% range depending on currency and tenure — lower than rupee deposits, but with none of the currency conversion friction.",
         ],
       },
       {
@@ -270,7 +270,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "Buying property in India is legal for NRIs without RBI permission, full stop. You can buy residential or commercial property freely. You cannot buy agricultural land, plantation property, or farmhouses — that restriction surprises people more often than it should, given how long it's been in place. Our complete guide to buying property in India walks through the whole process, from payment rules to Power of Attorney.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "p",
@@ -309,10 +309,10 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Neither column is \"the winner.\" That's the point most comparisons miss by forcing a verdict where none exists.",
       },
-      { type: "h2", text: "Which One Fits Which Kind of Singapore NRI" },
+      { type: "h2", text: "Which One Fits Which Kind of Qatar NRI" },
       {
         type: "p",
-        text: "If you're the person who checks your portfolio during your Singapore commute and wants clean numbers without a PoA, a lawyer, or a tenant — GIFT City is the more honest fit. It behaves like an investment, because it is one.",
+        text: "If you're the person who checks your portfolio during your Doha commute and wants clean numbers without a PoA, a lawyer, or a tenant — GIFT City is the more honest fit. It behaves like an investment, because it is one.",
       },
       {
         type: "internallink",
@@ -321,12 +321,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "There's also a third kind of Singapore NRI, and it's probably the largest group: someone with enough capital to not have to choose.",
+        text: "There's also a third kind of Qatar NRI, and it's probably the largest group: someone with enough capital to not have to choose.",
       },
       { type: "h2", text: "Can You Do Both?" },
       {
         type: "p",
-        text: "For most NRIs in the SGD 12,000+/month income bracket with five-plus years of savings behind them, the answer is a simple allocation split rather than a binary decision. A common pattern among clients we've spoken with: GIFT City for the portion of capital that needs to stay liquid and tax-efficient, real estate for the portion earmarked as a long-term family asset that was always going to be a 10-15 year hold anyway.",
+        text: "For most NRIs in the QAR 30,000+/month income bracket with five-plus years of savings behind them, the answer is a simple allocation split rather than a binary decision. A common pattern among clients we've spoken with: GIFT City for the portion of capital that needs to stay liquid and tax-efficient, real estate for the portion earmarked as a long-term family asset that was always going to be a 10-15 year hold anyway.",
       },
       {
         type: "p",
@@ -335,7 +335,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "Whichever way you lean, the real estate side of that allocation only works if the execution is clean — and the same handful of avoidable mistakes trip up NRI buyers regardless of which city or budget they're working with. Worth a read before you commit capital either way.",
-        slug: "nri-property-investment-mistakes-singapore",
+        slug: "nri-property-investment-mistakes-qatar",
       },
       {
         type: "cta",
@@ -373,7 +373,7 @@ export const blogPosts: BlogPost[] = [
           "Minimums vary by product and provider — bonds and funds each have their own entry thresholds, and IFSC Banking Unit accounts often have lower minimums than the investment products. Confirm current minimums with the specific provider before committing.",
       },
       {
-        question: "Does the India-Singapore DTAA reduce tax on either option?",
+        question: "Does the India-Qatar DTAA reduce tax on either option?",
         answer:
           "For real estate, no — rental income and capital gains on Indian immovable property are taxed in India regardless of DTAA, since property income is source-state taxed under the treaty. For certain GIFT City fund structures, the tax treatment already sits at zero or near-zero under India's domestic IFSC rules, so DTAA isn't usually the operative mechanism there either.",
       },
@@ -383,9 +383,9 @@ export const blogPosts: BlogPost[] = [
           "Your residency status change would affect ongoing tax treatment going forward, since several of these benefits are specifically tied to non-resident status. This is worth discussing with an advisor before a return-to-India move, not after.",
       },
       {
-        question: "Is it risky to buy Indian property through a Power of Attorney from Singapore?",
+        question: "Is it risky to buy Indian property through a Power of Attorney from Qatar?",
         answer:
-          "It's manageable risk, not zero risk. A narrowly drafted, transaction-specific PoA, properly attested through the Indian High Commission in Singapore, and paired with independent due diligence, is a well-established and safe path. A broad, informally drafted PoA handed to a relative to handle everything is where NRI property disputes actually originate.",
+          "It's manageable risk, not zero risk. A narrowly drafted, transaction-specific PoA, properly attested through the Embassy of India in Doha, Qatar, and paired with independent due diligence, is a well-established and safe path. A broad, informally drafted PoA handed to a relative to handle everything is where NRI property disputes actually originate.",
       },
     ],
   },
@@ -394,22 +394,22 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-002
   // ------------------------------------------------------------------
   {
-    slug: "nri-property-tax-filing-singapore",
-    title: "NRI Property Tax Filing Guide: Selling or Renting Out Indian Real Estate from Singapore",
+    slug: "nri-property-tax-filing-qatar",
+    title: "NRI Property Tax Filing Guide: Selling or Renting Out Indian Real Estate from Qatar",
     dek: "TDS on a property sale is calculated on the full sale value, not your profit, unless you apply for a certificate in advance. Here's the guide that closes that gap.",
-    metaTitle: "NRI Property Tax Filing from Singapore: TDS & DTAA",
+    metaTitle: "NRI Property Tax Filing from Qatar: TDS & DTAA",
     metaDescription:
-      "Renting out or selling Indian property from Singapore? Here's exactly what tax applies, what's withheld, and how DTAA stops double taxation.",
+      "Renting out or selling Indian property from Qatar? Here's exactly what tax applies, what's withheld, and how DTAA stops double taxation.",
     publishDate: "2026-07-16",
     readingTime: "12 min read",
     content: [
       {
         type: "p",
-        text: "Somewhere in Singapore right now, someone is staring at a TDS deduction on their property sale that's nearly a third higher than they expected. Not because the tax rate changed overnight. Because nobody told them TDS gets calculated on the full sale value, not the profit, unless you apply for a certificate in advance.",
+        text: "Somewhere in Doha right now, someone is staring at a TDS deduction on their property sale that's nearly a third higher than they expected. Not because the tax rate changed overnight. Because nobody told them TDS gets calculated on the full sale value, not the profit, unless you apply for a certificate in advance.",
       },
       {
         type: "p",
-        text: "That single gap in knowledge costs Singapore NRIs real money every single year. This is the guide that closes it.",
+        text: "That single gap in knowledge costs Qatar NRIs real money every single year. This is the guide that closes it.",
       },
       { type: "h2", text: "Two Scenarios, Two Very Different Tax Treatments" },
       {
@@ -431,7 +431,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Here's the part that catches Singapore NRIs specifically off guard: Singapore's tax system is territorial. Foreign-sourced income — including your Indian rental income — generally isn't taxed in Singapore unless it's actually received in Singapore. That doesn't mean it's tax-free. It means the tax obligation sits entirely on the Indian side, and skipping the Indian filing because \"Singapore doesn't tax it anyway\" is exactly the mistake that gets flagged years later.",
+        text: "Here's the part that catches Qatar NRIs specifically off guard: Qatar levies no personal income tax at all — not on your Qatar salary, and not on foreign-sourced income like Indian rental receipts. That doesn't mean the rental income itself is tax-free. It means the entire tax obligation sits on the Indian side, and skipping the Indian filing because \"Qatar doesn't tax it anyway\" is exactly the mistake that gets flagged years later.",
       },
       { type: "h2", text: "If You're Selling Your India Property" },
       {
@@ -458,28 +458,28 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "One more procedural shift worth knowing: TDS filings for non-resident sellers go through Form 27Q — being renumbered Form 144 from April 2026 — not Form 26QB, which is restricted to resident-seller transactions. If your buyer's CA files the wrong form, expect delays.",
       },
-      { type: "h2", text: "How the India-Singapore DTAA Prevents Double Taxation" },
+      { type: "h2", text: "How the India-Qatar DTAA Prevents Double Taxation" },
       {
         type: "p",
         text: "Here's the honest version of what DTAA does and doesn't do for real estate, because most explanations get this wrong.",
       },
       {
         type: "p",
-        text: "Under Article 6 and Article 13 of the India-Singapore DTAA, rental income and capital gains from Indian immovable property are source-state taxed — meaning India retains the right to tax them, full stop. The DTAA doesn't move that tax obligation to Singapore or exempt you from it.",
+        text: "Under Article 6 and Article 13 of the India-Qatar DTAA, rental income and capital gains from Indian immovable property are source-state taxed — meaning India retains the right to tax them, full stop. The DTAA doesn't move that tax obligation to Qatar or exempt you from it.",
       },
       {
         type: "p",
-        text: "What the DTAA actually does, combined with Singapore's territorial tax system, is prevent that same income from being taxed again in Singapore — since Singapore generally doesn't tax foreign-sourced income unless it's remitted there. That's a meaningfully different thing from \"DTAA makes my rental income tax-free,\" which is the version that circulates in NRI WhatsApp groups and isn't quite right.",
+        text: "What matters here is that Qatar's zero personal income-tax regime and the DTAA point the same direction for a different reason — Qatar was never going to tax this rental income at all, treaty or not, and the DTAA simply confirms India retains the sole right to tax it. That's a meaningfully different thing from \"DTAA makes my rental income tax-free,\" which is the version that circulates in NRI WhatsApp groups and isn't quite right.",
       },
       {
         type: "p",
-        text: "To formally claim DTAA benefits — relevant mostly for other income categories, since property income is source-taxed regardless — you'd typically need to establish Singapore tax residency (183+ days in the relevant year), file Form 10F with Indian tax authorities, and submit a Certificate of Residence from Singapore's tax authority. Worth having on file even for property transactions, since it supports your overall residency position.",
+        text: "To formally claim DTAA benefits — relevant mostly for other income categories, since property income is source-taxed regardless — you'd typically need to establish Qatar tax residency (183+ days in the relevant year), file Form 10F with Indian tax authorities, and submit a Tax Residency Certificate from Qatar's General Tax Authority (GTA). Worth having on file even for property transactions, since it supports your overall residency position.",
       },
       {
         type: "quote",
-        text: "This section explains the mechanism, not your specific filing position. Confirm your obligations under IRAS rules with a Singapore tax advisor alongside your Indian CA.",
+        text: "This section explains the mechanism, not your specific filing position. Since Qatar levies no personal income tax, there's no local return to reconcile — but confirm your Indian filing obligations with a qualified CA experienced in NRI taxation.",
       },
-      { type: "h2", text: "Step-by-Step: Filing Your Return as a Singapore NRI" },
+      { type: "h2", text: "Step-by-Step: Filing Your Return as a Qatar NRI" },
       {
         type: "ul",
         items: [
@@ -500,13 +500,13 @@ export const blogPosts: BlogPost[] = [
           "Skipping the Indian filing entirely because rent or sale proceeds \"already got taxed\" through TDS. TDS is a withholding, not a final settlement — the return is still required.",
           "Assuming a Lower Deduction Certificate can be requested after the sale agreement is signed. It can't meaningfully help you at that point; the TDS calculation is already locked to the transaction.",
           "Crediting rental income to an NRE account instead of NRO. It's the wrong account category for India-sourced income and creates a paper trail mismatch that tax authorities notice.",
-          "Treating \"Singapore doesn't tax foreign income\" as equivalent to \"I don't need to file in India.\" These are unrelated facts that happen to sit next to each other in the same sentence far too often.",
+          "Treating \"Qatar doesn't tax foreign income\" as equivalent to \"I don't need to file in India.\" These are unrelated facts that happen to sit next to each other in the same sentence far too often.",
         ],
       },
       {
         type: "crosslink",
-        text: "None of this matters until you actually own property in India, of course. If you're still at the purchase stage, our guide to buying property in India as a Singapore NRI covers the payment trail and Power of Attorney decisions that determine whether you land in a clean tax position later.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "None of this matters until you actually own property in India, of course. If you're still at the purchase stage, our guide to buying property in India as a Qatar NRI covers the payment trail and Power of Attorney decisions that determine whether you land in a clean tax position later.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "crosslink",
@@ -515,23 +515,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "Want to be matched with a CA who specializes in Singapore-India NRI tax filing?",
+        text: "Want to be matched with a CA who specializes in Qatar-India NRI tax filing?",
       },
       { type: "h2", text: "Getting This Right the First Time" },
       {
         type: "p",
-        text: "The gap between what most Singapore NRIs assume about property tax and what actually applies is exactly where money gets lost — either through over-withheld TDS sitting idle for a year, or through a filing gap that surfaces as a notice much later. Neither outcome is necessary once you know which of the two scenarios you're actually in.",
+        text: "The gap between what most Qatar NRIs assume about property tax and what actually applies is exactly where money gets lost — either through over-withheld TDS sitting idle for a year, or through a filing gap that surfaces as a notice much later. Neither outcome is necessary once you know which of the two scenarios you're actually in.",
       },
       {
         type: "quote",
-        text: "This article is for informational purposes and does not constitute personalized tax advice. Indian tax rates, forms, and DTAA provisions referenced above are current as of 2026 and subject to change with Finance Act updates — confirm your specific filing obligations with a qualified CA experienced in NRI taxation, and consult a Singapore tax advisor on your IRAS position.",
+        text: "This article is for informational purposes and does not constitute personalized tax advice. Indian tax rates, forms, and DTAA provisions referenced above are current as of 2026 and subject to change with Finance Act updates — confirm your specific filing obligations with a qualified CA experienced in NRI taxation.",
       },
     ],
     faqs: [
       {
         question: "Do NRIs pay tax on rental income from India property?",
         answer:
-          "Yes. Rental income from Indian property is taxable in India for NRIs regardless of residency. It must be credited to an NRO account, is subject to TDS where applicable, and must be reported in an Indian income tax return. The India-Singapore DTAA prevents this income from being taxed twice, not from being taxed at all.",
+          "Yes. Rental income from Indian property is taxable in India for NRIs regardless of residency. It must be credited to an NRO account, is subject to TDS where applicable, and must be reported in an Indian income tax return. The India-Qatar DTAA prevents this income from being taxed twice, not from being taxed at all.",
       },
       {
         question: "Is TDS on property sale calculated on my profit or the full sale price?",
@@ -544,9 +544,9 @@ export const blogPosts: BlogPost[] = [
           "It's a certificate from the Indian tax department authorizing the buyer to withhold TDS at a reduced rate based on your computed capital gain rather than the full sale value. Apply before finalizing the sale agreement — once signed, it's too late to meaningfully reduce the withholding on that transaction.",
       },
       {
-        question: "Does the India-Singapore DTAA make my rental income tax-free?",
+        question: "Does the India-Qatar DTAA make my rental income tax-free?",
         answer:
-          "No. Rental income and capital gains on Indian immovable property remain taxable in India under the treaty's source-state rules. What the DTAA and Singapore's territorial tax system together prevent is India-taxed property income being taxed a second time in Singapore.",
+          "No. Rental income and capital gains on Indian immovable property remain taxable in India under the treaty's source-state rules. Qatar levies no personal income tax at all, so there was never a second tax to prevent on the Qatar side — the DTAA's role is simply to confirm that India, not Qatar, holds the taxing right.",
       },
       {
         question: "Which account should receive my Indian rental income?",
@@ -554,7 +554,7 @@ export const blogPosts: BlogPost[] = [
           "Your NRO (Non-Resident Ordinary) account, not your NRE account. NRO is designated for India-sourced income like rent and dividends, while NRE is meant for funds remitted from abroad. Using the wrong account creates compliance mismatches.",
       },
       {
-        question: "How much of my property sale proceeds can I send back to Singapore?",
+        question: "How much of my property sale proceeds can I send back to Qatar?",
         answer:
           "Repatriation of sale proceeds is generally capped at USD 1 million per financial year through the NRE route, subject to documentation including Form 15CA/15CB filed through your bank before the transfer.",
       },
@@ -570,18 +570,18 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-004
   // ------------------------------------------------------------------
   {
-    slug: "best-bangalore-projects-nri-investment-singapore",
-    title: "Best Real Estate Projects in Bangalore for Singapore NRI Investment (2026)",
+    slug: "best-bangalore-projects-nri-investment-qatar",
+    title: "Best Real Estate Projects in Bangalore for Qatar NRI Investment (2026)",
     dek: "Sarjapur Road, Devanahalli, Whitefield, and Budigere Cross — which Bangalore micro-market and developer actually fits what you're optimizing for.",
-    metaTitle: "Best Bangalore Real Estate Projects for Singapore NRIs",
+    metaTitle: "Best Bangalore Real Estate Projects for Qatar NRIs",
     metaDescription:
-      "Sarjapur Road, Devanahalli, Whitefield — which Bangalore micro-market and developer actually fits your goals as a Singapore NRI investor? Here's the honest breakdown.",
+      "Sarjapur Road, Devanahalli, Whitefield — which Bangalore micro-market and developer actually fits your goals as a Qatar NRI investor? Here's the honest breakdown.",
     publishDate: "2026-07-16",
     readingTime: "11 min read",
     content: [
       {
         type: "p",
-        text: 'If you\'re a Singapore NRI and Bangalore keeps coming up as "the one to look at," there\'s a reason. It\'s the only Indian city where the tenant pool and the investor pool are practically the same profile — IT professionals who could just as easily be you, five years ago.',
+        text: 'If you\'re a Qatar NRI and Bangalore keeps coming up as "the one to look at," there\'s a reason. It\'s the only Indian city where the tenant pool and the investor pool are practically the same profile — IT professionals who could just as easily be you, five years ago.',
       },
       {
         type: "p",
@@ -599,7 +599,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Sarjapur Road — The Micro-Market Most NRIs Actually Want" },
       {
         type: "p",
-        text: "If there's a single most-asked-about location among Singapore-based NRI investors, it's Sarjapur Road. The reasons are consistent across the buyers we hear from: proximity to multiple IT hubs, a growing cluster of international schools (relevant if the plan is eventual return), and rental demand that's held up better than newer, less-established corridors.",
+        text: "If there's a single most-asked-about location among Qatar-based NRI investors, it's Sarjapur Road. The reasons are consistent across the buyers we hear from: proximity to multiple IT hubs, a growing cluster of international schools (relevant if the plan is eventual return), and rental demand that's held up better than newer, less-established corridors.",
       },
       {
         type: "p",
@@ -665,23 +665,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "Once you've picked a micro-market, the next decision is execution — how payment must flow, whether you need to fly back for anything, and how to structure a Power of Attorney safely. Our complete guide to buying property in India as a Singapore NRI walks through exactly that.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "Once you've picked a micro-market, the next decision is execution — how payment must flow, whether you need to fly back for anything, and how to structure a Power of Attorney safely. Our complete guide to buying property in India as a Qatar NRI walks through exactly that.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "crosslink",
         text: "Whichever corridor you land on, factor in what happens after you own it — rental income is taxable in India from day one, and a future sale triggers TDS on the full sale value unless you plan ahead. Our guide covers what happens at tax time once you own this property.",
-        slug: "nri-property-tax-filing-singapore",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "crosslink",
         text: "And if you're still deciding whether a physical asset is even the right move for this portion of your capital, it's worth comparing this to a GIFT City investment before you commit either way.",
-        slug: "gift-city-vs-real-estate-singapore-nri",
+        slug: "gift-city-vs-real-estate-qatar-nri",
       },
       {
         type: "crosslink",
         text: "Bangalore isn't the only IT-driven city worth comparing on this basis — if you're also weighing Pune or Hyderabad, the yield and diversification tradeoffs work differently there than they do across Bangalore's micro-markets.",
-        slug: "pune-vs-hyderabad-property-investment-nri-singapore",
+        slug: "pune-vs-hyderabad-property-investment-nri-qatar",
       },
       {
         type: "cta",
@@ -701,7 +701,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which area in Bangalore is best for NRI property investment?",
         answer:
-          "Sarjapur Road is the most commonly cited micro-market among Singapore-based NRI investors, due to strong IT-hub proximity, international school access, and consistent rental demand. North Bangalore (Devanahalli) has shown stronger recent appreciation, while Whitefield offers steadier, more established rental income.",
+          "Sarjapur Road is the most commonly cited micro-market among Qatar-based NRI investors, due to strong IT-hub proximity, international school access, and consistent rental demand. North Bangalore (Devanahalli) has shown stronger recent appreciation, while Whitefield offers steadier, more established rental income.",
       },
       {
         question: "Which developers are considered reliable for NRI investment in Bangalore?",
@@ -714,7 +714,7 @@ export const blogPosts: BlogPost[] = [
           "It depends on your priority. North Bangalore near Devanahalli has posted stronger recent appreciation but carries more execution and timeline risk as a newer corridor. Whitefield and similar established areas offer steadier rental income with less appreciation upside — a lower-risk, lower-reward profile by comparison.",
       },
       {
-        question: "Can Singapore NRIs buy under-construction projects in Bangalore?",
+        question: "Can Qatar NRIs buy under-construction projects in Bangalore?",
         answer:
           "Yes, provided the project is RERA-registered, which is now standard practice for legitimate developers in Karnataka. Confirm registration directly on the Karnataka RERA portal before paying any booking amount, and understand that under-construction purchases carry timeline and delivery risk that completed inventory doesn't.",
       },
@@ -724,7 +724,7 @@ export const blogPosts: BlogPost[] = [
           "Yields vary significantly by micro-market and property type, generally landing in a low-single-digit percentage range typical of Indian metro residential real estate, with established IT-corridor locations like Whitefield and Sarjapur Road typically outperforming newer, less-proven corridors on occupancy consistency.",
       },
       {
-        question: "How do I verify a Bangalore project is legitimate before investing from Singapore?",
+        question: "How do I verify a Bangalore project is legitimate before investing from Qatar?",
         answer:
           "Check RERA registration on the Karnataka RERA portal, request the developer's delivery history on prior projects, verify the encumbrance certificate through the local sub-registrar, and ideally have an independent party physically inspect the site rather than relying solely on the developer's marketing materials or a broker's assurance.",
       },
@@ -740,12 +740,12 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-005
   // ------------------------------------------------------------------
   {
-    slug: "pune-vs-hyderabad-property-investment-nri-singapore",
-    title: "Pune vs Hyderabad: Where Should Singapore NRIs Invest in Indian Real Estate?",
+    slug: "pune-vs-hyderabad-property-investment-nri-qatar",
+    title: "Pune vs Hyderabad: Where Should Qatar NRIs Invest in Indian Real Estate?",
     dek: "Higher yield in Hyderabad's concentrated IT corridor, or Pune's steadier, more diversified base — the real tradeoff behind a comparison that usually stops too early.",
-    metaTitle: "Pune vs Hyderabad: Best City for Singapore NRI Investment",
+    metaTitle: "Pune vs Hyderabad: Best City for Qatar NRI Investment",
     metaDescription:
-      "Higher yield in Hyderabad or diversified stability in Pune? A real comparison of rental yields, developers, and risk for Singapore-based NRI investors.",
+      "Higher yield in Hyderabad or diversified stability in Pune? A real comparison of rental yields, developers, and risk for Qatar-based NRI investors.",
     publishDate: "2026-07-16",
     readingTime: "11 min read",
     content: [
@@ -790,7 +790,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Brigade Group's Brigade Gateway development in Kokapet sits close to this corridor, positioned toward the premium end with larger-format units. Godrej Properties has Godrej Regal Pavilion in the Gachibowli belt, closer to the mid-to-upper segment and the kind of ticket size more Singapore NRIs are actually working with on a first India property purchase.",
+        text: "Brigade Group's Brigade Gateway development in Kokapet sits close to this corridor, positioned toward the premium end with larger-format units. Godrej Properties has Godrej Regal Pavilion in the Gachibowli belt, closer to the mid-to-upper segment and the kind of ticket size more Qatar NRIs are actually working with on a first India property purchase.",
       },
       {
         type: "p",
@@ -812,7 +812,7 @@ export const blogPosts: BlogPost[] = [
           ["Best fit for", "Diversification-minded, longer patience for appreciation", "Yield-focused, comfortable with concentrated IT-sector exposure"],
         ],
       },
-      { type: "h2", text: "Which One Actually Fits a Singapore NRI" },
+      { type: "h2", text: "Which One Actually Fits a Qatar NRI" },
       {
         type: "p",
         text: "If your priority is rental income relative to purchase price, Hyderabad's numbers currently make a stronger case — the concentration of major tech employers around Financial District and Gachibowli is a genuine structural advantage, not just marketing.",
@@ -836,23 +836,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "Whichever city you lean toward, the execution mechanics are identical — payment through the right account, a properly scoped Power of Attorney if you can't be there in person, and title verification before any money moves. Our complete guide to buying property in India as a Singapore NRI covers all of it.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "Whichever city you lean toward, the execution mechanics are identical — payment through the right account, a properly scoped Power of Attorney if you can't be there in person, and title verification before any money moves. Our complete guide to buying property in India as a Qatar NRI covers all of it.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "crosslink",
         text: "And once you own it, rental income and any eventual sale both come with their own tax mechanics — TDS on sale is calculated on the full price, not your gain, unless you plan ahead. Our guide covers what happens at tax time once you own this property.",
-        slug: "nri-property-tax-filing-singapore",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "crosslink",
         text: "If Bangalore is also on your shortlist, its micro-markets — Sarjapur Road, Devanahalli, Whitefield — carry a different yield-versus-appreciation tradeoff again, worth comparing directly rather than assuming all three IT-driven cities behave the same way.",
-        slug: "best-bangalore-projects-nri-investment-singapore",
+        slug: "best-bangalore-projects-nri-investment-qatar",
       },
       {
         type: "crosslink",
-        text: "Financing either city works the same way — the eligibility criteria and loan-to-value expectations don't change by city. Our guide to NRI home loans from Singapore covers what to expect before you start comparing lenders.",
-        slug: "nri-home-loan-guide-singapore",
+        text: "Financing either city works the same way — the eligibility criteria and loan-to-value expectations don't change by city. Our guide to NRI home loans from Qatar covers what to expect before you start comparing lenders.",
+        slug: "nri-home-loan-guide-qatar",
       },
       {
         type: "cta",
@@ -900,7 +900,7 @@ export const blogPosts: BlogPost[] = [
           "It depends on the specific project and micro-market rather than the city broadly. Hyderabad's yield range is currently competitive with or ahead of many Bangalore corridors, while Pune trades some yield for a more diversified economic base — a direct project-to-project comparison matters more than a city-level generalization.",
       },
       {
-        question: "Can I manage a Pune or Hyderabad property purchase entirely from Singapore?",
+        question: "Can I manage a Pune or Hyderabad property purchase entirely from Qatar?",
         answer:
           "Yes, using the same framework as any NRI property purchase — payment through NRE/NRO/FCNR accounts, a narrowly scoped Power of Attorney for someone handling on-ground steps, and independent verification of title and RERA status before committing funds.",
       },
@@ -911,18 +911,18 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-006
   // ------------------------------------------------------------------
   {
-    slug: "luxury-real-estate-mumbai-gurgaon-nri-singapore",
-    title: "Top Luxury Real Estate Projects in Mumbai and Gurgaon for Singapore NRIs",
-    dek: "Scarcity in Mumbai, momentum in Gurgaon — a real comparison for the Singapore NRI where ₹3-5 crore isn't the question, fit is.",
-    metaTitle: "Luxury Real Estate in Mumbai & Gurgaon for Singapore NRIs",
+    slug: "luxury-real-estate-mumbai-gurgaon-nri-qatar",
+    title: "Top Luxury Real Estate Projects in Mumbai and Gurgaon for Qatar NRIs",
+    dek: "Scarcity in Mumbai, momentum in Gurgaon — a real comparison for the Qatar NRI where ₹3-5 crore isn't the question, fit is.",
+    metaTitle: "Luxury Real Estate in Mumbai & Gurgaon for Qatar NRIs",
     metaDescription:
-      "Scarcity in Mumbai or growth momentum in Gurgaon? A real comparison of luxury real estate, top developers, and pricing for Singapore-based NRI buyers.",
+      "Scarcity in Mumbai or growth momentum in Gurgaon? A real comparison of luxury real estate, top developers, and pricing for Qatar-based NRI buyers.",
     publishDate: "2026-07-16",
     readingTime: "12 min read",
     content: [
       {
         type: "p",
-        text: 'There\'s a specific kind of Singapore NRI this blog is for: senior enough in their career that ₹3-5 crore isn\'t a stretch, and the question isn\'t "can I afford India property" but "which city\'s luxury segment actually holds value the way I expect it to."',
+        text: 'There\'s a specific kind of Qatar NRI this blog is for: senior enough in their career that ₹3-5 crore isn\'t a stretch, and the question isn\'t "can I afford India property" but "which city\'s luxury segment actually holds value the way I expect it to."',
       },
       {
         type: "p",
@@ -1007,23 +1007,23 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "Legal and tax structuring deserves dedicated advice before you commit, not after — the FEMA and capital gains mechanics are the same rules that apply to any NRI property purchase, but the absolute rupee amounts at stake make getting professional advice upfront considerably cheaper than fixing a structuring mistake later. Our guide to NRI property tax filing from Singapore covers the mechanics in full.",
-        slug: "nri-property-tax-filing-singapore",
+        text: "Legal and tax structuring deserves dedicated advice before you commit, not after — the FEMA and capital gains mechanics are the same rules that apply to any NRI property purchase, but the absolute rupee amounts at stake make getting professional advice upfront considerably cheaper than fixing a structuring mistake later. Our guide to NRI property tax filing from Qatar covers the mechanics in full.",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "crosslink",
-        text: "The payment trail and Power of Attorney rules don't change at this price point either — they just carry more weight when the numbers involved are larger. Our complete guide to buying property in India as a Singapore NRI covers both in detail.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "The payment trail and Power of Attorney rules don't change at this price point either — they just carry more weight when the numbers involved are larger. Our complete guide to buying property in India as a Qatar NRI covers both in detail.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "crosslink",
         text: "And if part of this capital could just as easily sit in a liquid, tax-efficient instrument instead of a physical address, it's worth comparing this against a GIFT City allocation before deciding how much goes into bricks and mortar.",
-        slug: "gift-city-vs-real-estate-singapore-nri",
+        slug: "gift-city-vs-real-estate-qatar-nri",
       },
       {
         type: "crosslink",
         text: "Not every second property has to be a scarcity play or a growth bet. If what you're actually after is a family holiday home that can also earn rental income when you're not using it, Goa's a genuinely different — and considerably less expensive — kind of answer to that goal.",
-        slug: "goa-property-investment-nri-singapore",
+        slug: "goa-property-investment-nri-qatar",
       },
       {
         type: "cta",
@@ -1032,7 +1032,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Making the Call at This Price Point" },
       {
         type: "p",
-        text: "Mumbai and Gurgaon both give a Singapore NRI with serious capital a legitimate path into Indian luxury real estate — they just reward different things. Mumbai rewards patience and conviction in permanent scarcity. Gurgaon rewards being early to an infrastructure story that's still unfolding. Know which one you're actually signing up for before the paperwork starts.",
+        text: "Mumbai and Gurgaon both give a Qatar NRI with serious capital a legitimate path into Indian luxury real estate — they just reward different things. Mumbai rewards patience and conviction in permanent scarcity. Gurgaon rewards being early to an infrastructure story that's still unfolding. Know which one you're actually signing up for before the paperwork starts.",
       },
       {
         type: "quote",
@@ -1081,27 +1081,27 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-007
   // ------------------------------------------------------------------
   {
-    slug: "nri-home-loan-guide-singapore",
-    title: "NRI Home Loan from Singapore: Interest Rates, Eligibility & Documents (2026)",
-    dek: "Which Indian banks actually lend to Singapore-based NRIs, what the loan-to-value and tenure limits really are, and the paperwork that decides how fast your loan closes.",
-    metaTitle: "NRI Home Loan from Singapore: Rates & Eligibility 2026",
+    slug: "nri-home-loan-guide-qatar",
+    title: "NRI Home Loan from Qatar: Interest Rates, Eligibility & Documents (2026)",
+    dek: "Which Indian banks actually lend to Qatar-based NRIs, what the loan-to-value and tenure limits really are, and the paperwork that decides how fast your loan closes.",
+    metaTitle: "NRI Home Loan from Qatar: Rates & Eligibility 2026",
     metaDescription:
-      "A Singapore NRI's guide to Indian home loans — eligible lenders, LTV limits, tenure, required documents, and how repayment actually works through NRE/NRO accounts.",
+      "A Qatar NRI's guide to Indian home loans — eligible lenders, LTV limits, tenure, required documents, and how repayment actually works through NRE/NRO accounts.",
     publishDate: "2026-09-03",
     readingTime: "10 min read",
     content: [
       {
         type: "p",
-        text: "There's a quiet assumption a lot of Singapore NRIs carry into their first India property purchase: that financing from abroad is complicated enough to just avoid, and paying cash is simpler. Sometimes that's true. Often it isn't — and the people who assume it without checking end up leaving cheaper capital on the table.",
+        text: "There's a quiet assumption a lot of Qatar NRIs carry into their first India property purchase: that financing from abroad is complicated enough to just avoid, and paying cash is simpler. Sometimes that's true. Often it isn't — and the people who assume it without checking end up leaving cheaper capital on the table.",
       },
       {
         type: "p",
-        text: "Indian banks have lent to NRIs for decades. It's a well-established, actively courted customer segment, not a workaround you have to talk a branch manager into. The real question isn't whether you can get a loan — it's what you actually qualify for, and what the paperwork trail looks like from Singapore.",
+        text: "Indian banks have lent to NRIs for decades. It's a well-established, actively courted customer segment, not a workaround you have to talk a branch manager into. The real question isn't whether you can get a loan — it's what you actually qualify for, and what the paperwork trail looks like from Qatar.",
       },
       { type: "h2", text: "Yes, Indian Banks Are Actively Chasing This Business" },
       {
         type: "p",
-        text: "Nearly every major Indian bank — public and private — runs a dedicated NRI home loan desk, and several maintain representative offices or partner arrangements in Singapore specifically because the NRI-Singapore corridor is large enough to justify it. This isn't a niche product bolted onto the retail lending book; it's a segment with its own eligibility criteria, documentation checklist, and often a marginally different rate structure than resident home loans.",
+        text: "Nearly every major Indian bank — public and private — runs a dedicated NRI home loan desk, and several maintain representative offices or partner arrangements in Qatar specifically because the NRI-Qatar corridor is large enough to justify it. This isn't a niche product bolted onto the retail lending book; it's a segment with its own eligibility criteria, documentation checklist, and often a marginally different rate structure than resident home loans.",
       },
       {
         type: "p",
@@ -1116,7 +1116,7 @@ export const blogPosts: BlogPost[] = [
         type: "ul",
         items: [
           "**Age.** Typically 21-24 at application, with the loan required to close out before a maximum age at maturity — commonly somewhere between 60 and 70, depending on the bank and whether you're salaried or self-employed.",
-          "**Employment stability.** Most lenders want to see a minimum continuous employment period, often around 2 years overall with at least several months in your current role — Singapore Employment Pass holders and PR-status applicants are both routinely financed, though the specific document set differs slightly between the two.",
+          "**Employment stability.** Most lenders want to see a minimum continuous employment period, often around 2 years overall with at least several months in your current role — Qatar Residence Permit (RP) holders are routinely financed, with sponsor and employer details forming part of the standard document set.",
           "**Minimum income.** There's no single industry number — it varies by lender and by how much you're borrowing — but expect a minimum monthly income threshold that's meaningfully higher than what the same bank asks of a resident applicant, reflecting the added complexity of cross-border recovery if something goes wrong.",
           "**A co-applicant, in many cases.** Some banks require or strongly prefer an Indian resident co-applicant (often an immediate family member) with independent income, which can also improve your eligible loan amount.",
         ],
@@ -1147,9 +1147,9 @@ export const blogPosts: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "**Identity and status.** Passport, valid visa or Employment Pass / PR card, and OCI or PIO card if applicable.",
-          "**Income proof.** Singapore payslips (typically the last 3-6 months), employment contract or appointment letter, and your IRAS Notice of Assessment as the Singapore equivalent of an income tax return — this last document carries real weight, since it's a third-party-verified income record the bank can trust more than a self-submitted payslip.",
-          "**Bank statements.** Both your Singapore salary account and your NRE/NRO account in India, usually 6 months.",
+          "**Identity and status.** Passport, valid Qatar Residence Permit (RP) or Qatar ID (QID), and OCI or PIO card if applicable.",
+          "**Income proof.** Qatar payslips (typically the last 3-6 months), an employer-attested salary certificate, and your employment contract or appointment letter — since Qatar issues no individual tax assessment, the attested salary certificate is the closest thing to a third-party-verified income record, and banks weight it accordingly.",
+          "**Bank statements.** Both your Qatar salary account and your NRE/NRO account in India, usually 6 months.",
           "**Property documents.** Title deed, approved building plan, RERA registration for under-construction property, and the agreement for sale or allotment letter.",
           "**PoA, if you can't be physically present.** A registered, narrowly scoped Power of Attorney authorizing someone to execute loan documents on your behalf — this needs to be arranged well before the disbursement stage, not scrambled together at the last step.",
         ],
@@ -1158,15 +1158,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "Every one of these documents that arrives incomplete or in the wrong format adds days, sometimes weeks, to processing. Gathering the full set before you approach a lender — rather than mid-application — is the single biggest lever you have over how fast this actually closes.",
       },
-      { type: "h2", text: "How Repayment Actually Works From Singapore" },
+      { type: "h2", text: "How Repayment Actually Works From Qatar" },
       {
         type: "p",
         text: "EMIs must be repaid through your NRE, NRO, or FCNR account, or via direct remittance from abroad — the same payment-channel rule that governs the original property purchase. You cannot route repayment informally through a relative's domestic Indian account, even if it's more convenient month to month; lenders expect the repayment trail to trace back to you as cleanly as the original down payment did.",
       },
       {
         type: "crosslink",
-        text: "This repayment rule is part of a broader payment-trail principle that governs the entire NRI property transaction, not just the loan. Our complete guide to buying property in India as a Singapore NRI covers the full picture, including the Power of Attorney mechanics referenced above.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "This repayment rule is part of a broader payment-trail principle that governs the entire NRI property transaction, not just the loan. Our complete guide to buying property in India as a Qatar NRI covers the full picture, including the Power of Attorney mechanics referenced above.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       { type: "h2", text: "Fixed vs Floating, and Actually Comparing Lenders" },
       {
@@ -1185,7 +1185,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "If part of your reasoning for financing is keeping capital free for something more liquid or tax-efficient, it's worth running the actual numbers against a GIFT City allocation before deciding — the two aren't mutually exclusive, but the tradeoff is easier to see once you've compared them directly.",
-        slug: "gift-city-vs-real-estate-singapore-nri",
+        slug: "gift-city-vs-real-estate-qatar-nri",
       },
       {
         type: "extlink",
@@ -1200,7 +1200,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Financing With Your Eyes Open" },
       {
         type: "p",
-        text: "An NRI home loan from Singapore is a genuinely well-trodden path, not a special favor a bank is doing you. The work is in getting your documentation right the first time, calculating tenure against your real age-at-maturity limit instead of the advertised maximum, and comparing more than one lender before assuming the first offer is the market rate.",
+        text: "An NRI home loan from Qatar is a genuinely well-trodden path, not a special favor a bank is doing you. The work is in getting your documentation right the first time, calculating tenure against your real age-at-maturity limit instead of the advertised maximum, and comparing more than one lender before assuming the first offer is the market rate.",
       },
       {
         type: "quote",
@@ -1209,14 +1209,14 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Can a Singapore NRI get a home loan from an Indian bank?",
+        question: "Can a Qatar NRI get a home loan from an Indian bank?",
         answer:
-          "Yes. Most major Indian banks actively lend to NRIs, including those based in Singapore, through dedicated NRI home loan desks. Eligibility depends on age, employment stability, income, and the property itself, with repayment required through an NRE, NRO, or FCNR account.",
+          "Yes. Most major Indian banks actively lend to NRIs, including those based in Qatar, through dedicated NRI home loan desks. Eligibility depends on age, employment stability, income, and the property itself, with repayment required through an NRE, NRO, or FCNR account.",
       },
       {
-        question: "What documents does IRAS's Notice of Assessment have to do with an Indian home loan?",
+        question: "Why do Indian lenders ask for an attested salary certificate from Qatar employers?",
         answer:
-          "Since Singapore's Notice of Assessment from IRAS is a government-verified income record, Indian lenders treat it as stronger proof of income than a self-submitted payslip alone. Including it alongside your payslips and employment letter typically speeds up income verification.",
+          "Since Qatar issues no individual income tax assessment, there's no government-issued income record to fall back on. An employer-attested salary certificate is the closest equivalent, and Indian lenders treat it as stronger proof of income than a self-submitted payslip alone. Including it alongside your payslips and employment letter typically speeds up income verification.",
       },
       {
         question: "How much can an NRI borrow for property in India?",
@@ -1229,7 +1229,7 @@ export const blogPosts: BlogPost[] = [
           "There's no single industry-wide number — it depends on the lender's maximum age-at-loan-maturity rule, commonly somewhere between 60 and 70. The practical tenure you're offered is usually this maturity age minus your current age, not the bank's advertised maximum tenure.",
       },
       {
-        question: "Can I repay my NRI home loan from my Singapore salary account?",
+        question: "Can I repay my NRI home loan from my Qatar salary account?",
         answer:
           "Not directly. EMIs must be repaid through your NRE, NRO, or FCNR account in India, or via direct remittance from abroad — the same payment-channel requirement that applies to the original property purchase.",
       },
@@ -1251,11 +1251,11 @@ export const blogPosts: BlogPost[] = [
   // ------------------------------------------------------------------
   {
     slug: "nri-inheritance-succession-indian-property",
-    title: "Inheritance & Succession Planning for Indian Property: A Singapore NRI's Guide",
-    dek: "A Will registered in Singapore doesn't automatically transfer an Indian flat. Here's what actually does — and the paperwork gap that stalls more estates than anyone expects.",
+    title: "Inheritance & Succession Planning for Indian Property: A Qatar NRI's Guide",
+    dek: "A Will made in Qatar doesn't automatically transfer an Indian flat. Here's what actually does — and the paperwork gap that stalls more estates than anyone expects.",
     metaTitle: "NRI Inheritance & Succession Planning for Indian Property",
     metaDescription:
-      "How Singapore NRIs should plan inheritance of Indian property — Wills, succession certificates, nomination, probate, and the cross-border traps to avoid.",
+      "How Qatar NRIs should plan inheritance of Indian property — Wills, succession certificates, nomination, probate, and the cross-border traps to avoid.",
     publishDate: "2026-09-03",
     readingTime: "11 min read",
     content: [
@@ -1267,10 +1267,10 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "This is one of the least-discussed parts of NRI property ownership, mostly because it requires imagining your own absence. It's also one of the most expensive parts to get wrong, in money and in family relationships, precisely because the mistakes here surface at the worst possible time to discover them.",
       },
-      { type: "h2", text: "Why Indian Property Doesn't Follow Singapore Estate Law" },
+      { type: "h2", text: "Why Indian Property Doesn't Follow Qatar Estate Law" },
       {
         type: "p",
-        text: "Here's the fact that surprises the most people: your Singapore Will, however carefully drafted, does not govern what happens to immovable property located in India. Indian real estate is governed by Indian succession law regardless of where the owner lived, died, or held citizenship — a Will made and probated in Singapore may need to go through a separate, often lengthy resealing or re-probate process in India before it has any legal effect on an Indian asset.",
+        text: "Here's the fact that surprises the most people: your Will, wherever it was made, does not automatically govern what happens to immovable property located in India. Indian real estate is governed by Indian succession law regardless of where the owner lived, died, or held citizenship — a Will made and probated abroad may need to go through a separate, often lengthy resealing or re-probate process in India before it has any legal effect on an Indian asset. Qatar adds its own layer to this: as a non-Muslim expatriate, your home country's inheritance law can apply to your Qatar-based and global estate, but typically only if that choice is formally declared through a notarized will recognized by Qatari courts — skip that step, and Qatar's own succession rules may apply by default to whatever falls within its jurisdiction. Either way, neither route substitutes for an India-specific Will covering the Indian property itself.",
       },
       {
         type: "p",
@@ -1283,7 +1283,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "This doesn't mean you need two contradictory Wills. It means structuring your estate plan so your Singapore Will explicitly covers Singapore and global assets other than Indian immovable property, while a separate India-specific Will handles the property directly under Indian jurisdiction, referencing but not conflicting with the other.",
+        text: "This doesn't mean you need two contradictory Wills. It means structuring your estate plan so your Qatar-recognized Will explicitly covers Qatar and global assets other than Indian immovable property, while a separate India-specific Will handles the property directly under Indian jurisdiction, referencing but not conflicting with the other.",
       },
       { type: "h2", text: "What Happens Without a Will: Intestate Succession" },
       {
@@ -1327,14 +1327,14 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "PoA is genuinely useful for managing a property purchase or sale while you're alive and can't be physically present — our complete guide to buying property in India as a Singapore NRI covers how to structure one safely for that purpose.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "PoA is genuinely useful for managing a property purchase or sale while you're alive and can't be physically present — our complete guide to buying property in India as a Qatar NRI covers how to structure one safely for that purpose.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       { type: "h2", text: "What to Actually Do While Everyone's Still Around" },
       {
         type: "ul",
         items: [
-          "Draft an India-specific Will with a lawyer experienced in NRI estates, not a generic template pulled from a Singapore firm unfamiliar with Indian property law.",
+          "Draft an India-specific Will with a lawyer experienced in NRI estates, not a generic template pulled from a firm unfamiliar with Indian property law.",
           "Register the Will where possible — registration isn't always mandatory, but it substantially reduces the chance of a later dispute over authenticity.",
           "Keep an organized, accessible record of property documents, title deeds, and account details — the paperwork trail matters as much for your heirs as it did for your original purchase.",
           "Talk to your intended heirs about the plan while you can. Most disputes trace back to assumptions nobody actually confirmed out loud.",
@@ -1348,8 +1348,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "Once you do sell an inherited property, the same TDS and capital gains mechanics apply as any other NRI property sale — including the Lower Deduction Certificate process that prevents TDS from being withheld against the full sale value instead of your actual gain. Our guide to NRI property tax filing from Singapore covers this in full.",
-        slug: "nri-property-tax-filing-singapore",
+        text: "Once you do sell an inherited property, the same TDS and capital gains mechanics apply as any other NRI property sale — including the Lower Deduction Certificate process that prevents TDS from being withheld against the full sale value instead of your actual gain. Our guide to NRI property tax filing from Qatar covers this in full.",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "extlink",
@@ -1373,7 +1373,7 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Does my Singapore Will cover my property in India?",
+        question: "Does my Qatar Will cover my property in India?",
         answer:
           "Not automatically. Indian immovable property is governed by Indian succession law regardless of where the owner lived or died, and a Will made abroad often needs a separate resealing or re-probate process in India before it takes legal effect on Indian assets — which is why a dedicated India-specific Will is generally recommended.",
       },
@@ -1414,23 +1414,23 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-009
   // ------------------------------------------------------------------
   {
-    slug: "goa-property-investment-nri-singapore",
-    title: "Goa Property for Singapore NRIs: Holiday Home or Investment? (2026 Guide)",
+    slug: "goa-property-investment-nri-qatar",
+    title: "Goa Property for Qatar NRIs: Holiday Home or Investment? (2026 Guide)",
     dek: "North Goa's short-term rental yields look great on paper until you actually run the occupancy math. Here's the honest version, plus the coastal-zone check almost nobody does before buying.",
-    metaTitle: "Goa Property for Singapore NRIs: Holiday Home Guide 2026",
+    metaTitle: "Goa Property for Qatar NRIs: Holiday Home Guide 2026",
     metaDescription:
-      "Buying a holiday home or rental investment in Goa as a Singapore NRI — North vs South Goa, realistic short-term rental yields, CRZ due diligence, and the management question.",
+      "Buying a holiday home or rental investment in Goa as a Qatar NRI — North vs South Goa, realistic short-term rental yields, CRZ due diligence, and the management question.",
     publishDate: "2026-09-03",
     readingTime: "10 min read",
     content: [
       {
         type: "p",
-        text: "Goa comes up in a different tone than Bangalore or Hyderabad in Singapore NRI conversations. Nobody's debating IT-corridor tenant demand. It's usually somewhere between \"a place for the family to actually use\" and \"could this pay for itself on Airbnb while we're not there\" — and those are genuinely two different investment cases wearing the same coastline.",
+        text: "Goa comes up in a different tone than Bangalore or Hyderabad in Qatar NRI conversations. Nobody's debating IT-corridor tenant demand. It's usually somewhere between \"a place for the family to actually use\" and \"could this pay for itself on Airbnb while we're not there\" — and those are genuinely two different investment cases wearing the same coastline.",
       },
       { type: "h2", text: "Two Different Buyers, One Coastline" },
       {
         type: "p",
-        text: "Being honest about which one you are before you start looking at listings saves a lot of wasted site visits. A pure holiday-home buyer optimizes for a location the family will actually enjoy and return to. A rental-yield buyer optimizes for occupancy, nightly rate, and how hands-off the management can realistically be from Singapore. Some buyers want both — that's fine, but it's worth being explicit about which one is primary, because it changes which micro-market and which unit type actually fits.",
+        text: "Being honest about which one you are before you start looking at listings saves a lot of wasted site visits. A pure holiday-home buyer optimizes for a location the family will actually enjoy and return to. A rental-yield buyer optimizes for occupancy, nightly rate, and how hands-off the management can realistically be from Qatar. Some buyers want both — that's fine, but it's worth being explicit about which one is primary, because it changes which micro-market and which unit type actually fits.",
       },
       { type: "h2", text: "North Goa — Assagao, Anjuna, Siolim: The Boutique-Villa Belt" },
       {
@@ -1457,7 +1457,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "On top of seasonal occupancy, factor in property management. Unless you're planning to self-manage bookings, cleaning, and guest turnover from Singapore — unrealistic for most owners — a local property manager or short-term rental platform typically takes somewhere in the range of 15-25%+ of booking revenue, sometimes more for a fully managed, furnished-and-serviced arrangement. Net yield after seasonality and management fees is meaningfully lower than the gross number in any listing brochure, and it varies enormously by specific property and management quality — treat any yield percentage quoted to you as a starting point for your own diligence, not a guarantee.",
+        text: "On top of seasonal occupancy, factor in property management. Unless you're planning to self-manage bookings, cleaning, and guest turnover from Qatar — unrealistic for most owners — a local property manager or short-term rental platform typically takes somewhere in the range of 15-25%+ of booking revenue, sometimes more for a fully managed, furnished-and-serviced arrangement. Net yield after seasonality and management fees is meaningfully lower than the gross number in any listing brochure, and it varies enormously by specific property and management quality — treat any yield percentage quoted to you as a starting point for your own diligence, not a guarantee.",
       },
       { type: "h2", text: "The Check Almost Nobody Does: CRZ Classification" },
       {
@@ -1476,7 +1476,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Managing a Rental Property You'll Rarely Visit" },
       {
         type: "p",
-        text: "Realistic options range from a full-service property management company (higher fee, genuinely hands-off) to a developer-run rental pool for branded-villa projects, to self-managing remotely through a local caretaker plus an online booking platform (lowest fee, highest personal effort and risk). Match the option to how much oversight you're actually willing to put in from Singapore — the fully hands-off options cost more precisely because they remove the coordination burden you'd otherwise be carrying yourself, badly, from four thousand kilometers away.",
+        text: "Realistic options range from a full-service property management company (higher fee, genuinely hands-off) to a developer-run rental pool for branded-villa projects, to self-managing remotely through a local caretaker plus an online booking platform (lowest fee, highest personal effort and risk). Match the option to how much oversight you're actually willing to put in from Qatar — the fully hands-off options cost more precisely because they remove the coordination burden you'd otherwise be carrying yourself, badly, from twenty-seven hundred kilometers away.",
       },
       { type: "h2", text: "Who Should Actually Buy in Goa" },
       {
@@ -1485,18 +1485,18 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "The execution mechanics — payment through the right account, a properly scoped Power of Attorney, and title verification — apply in Goa exactly as they do anywhere else in India. Our complete guide to buying property in India as a Singapore NRI covers all of it.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "The execution mechanics — payment through the right account, a properly scoped Power of Attorney, and title verification — apply in Goa exactly as they do anywhere else in India. Our complete guide to buying property in India as a Qatar NRI covers all of it.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       {
         type: "crosslink",
-        text: "Whether the income is a long-term tenant or a string of short-term bookings, it's taxed the same way under Indian rules — reportable, credited to your NRO account, with the same TDS mechanics if you eventually sell. Our guide to NRI property tax filing from Singapore covers what applies either way.",
-        slug: "nri-property-tax-filing-singapore",
+        text: "Whether the income is a long-term tenant or a string of short-term bookings, it's taxed the same way under Indian rules — reportable, credited to your NRO account, with the same TDS mechanics if you eventually sell. Our guide to NRI property tax filing from Qatar covers what applies either way.",
+        slug: "nri-property-tax-filing-qatar",
       },
       {
         type: "crosslink",
         text: "If yield optimization is genuinely your primary goal rather than a nice-to-have, it's worth comparing a Goa purchase against a liquid, tax-efficient GIFT City allocation before committing capital to a lifestyle-driven asset.",
-        slug: "gift-city-vs-real-estate-singapore-nri",
+        slug: "gift-city-vs-real-estate-qatar-nri",
       },
       {
         type: "cta",
@@ -1514,7 +1514,7 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       {
-        question: "Is Goa a good property investment for Singapore NRIs?",
+        question: "Is Goa a good property investment for Qatar NRIs?",
         answer:
           "It depends on your goal. As a family holiday home with rental income as a secondary benefit, Goa is a strong choice. As a pure rental-yield play, seasonality and property management costs make the realistic net yield lower than headline nightly rates suggest, and it's generally a harder case to win than a steady IT-corridor rental market.",
       },
@@ -1539,9 +1539,9 @@ export const blogPosts: BlogPost[] = [
           "Yes, in meaningful ways. Goa's land tenure history includes Comunidade land-holding systems and Portuguese-era records that differ from title systems elsewhere in India, which is why a Goa-specific property lawyer, rather than a generalist NRI property lawyer, is worth engaging for title verification.",
       },
       {
-        question: "Can I manage a Goa rental property entirely from Singapore?",
+        question: "Can I manage a Goa rental property entirely from Qatar?",
         answer:
-          "Yes, through a full-service property management company or a developer-run rental pool for branded-villa projects — both designed for hands-off ownership. Fully self-managing remotely is possible but carries more coordination burden and risk than most Singapore-based owners find realistic long-term.",
+          "Yes, through a full-service property management company or a developer-run rental pool for branded-villa projects — both designed for hands-off ownership. Fully self-managing remotely is possible but carries more coordination burden and risk than most Qatar-based owners find realistic long-term.",
       },
       {
         question: "Do the same NRI property rules and taxes apply to a Goa purchase?",
@@ -1555,12 +1555,12 @@ export const blogPosts: BlogPost[] = [
   // CB-SGP-010
   // ------------------------------------------------------------------
   {
-    slug: "nri-property-investment-mistakes-singapore",
-    title: "9 Costly Mistakes Singapore NRIs Make Buying Property in India (And How to Avoid Them)",
+    slug: "nri-property-investment-mistakes-qatar",
+    title: "9 Costly Mistakes Qatar NRIs Make Buying Property in India (And How to Avoid Them)",
     dek: "The payment routed through a cousin's account. The PoA signed without a scope limit. The TDS surprise on sale. Nine recurring, avoidable mistakes — and the fix for each.",
-    metaTitle: "9 NRI Property Mistakes Singapore Investors Should Avoid",
+    metaTitle: "9 NRI Property Mistakes Qatar Investors Should Avoid",
     metaDescription:
-      "The most common, costly mistakes Singapore NRIs make buying Indian property — payment routing, Power of Attorney, title checks, TDS, and more, with the fix for each.",
+      "The most common, costly mistakes Qatar NRIs make buying Indian property — payment routing, Power of Attorney, title checks, TDS, and more, with the fix for each.",
     publishDate: "2026-09-03",
     readingTime: "11 min read",
     content: [
@@ -1576,12 +1576,12 @@ export const blogPosts: BlogPost[] = [
       { type: "h3", text: "2. Handing out a broad, undated, all-purpose Power of Attorney" },
       {
         type: "p",
-        text: "A PoA that says \"handle everything related to my property affairs\" with no expiry and no transaction-specific scope is where most NRI property disputes actually originate — not from FEMA violations or tax errors. The fix: a narrow, transaction-specific PoA, properly drafted by a lawyer experienced in NRI transactions, notarized and attested through the Indian High Commission in Singapore, limited to exactly what this purchase or sale requires.",
+        text: "A PoA that says \"handle everything related to my property affairs\" with no expiry and no transaction-specific scope is where most NRI property disputes actually originate — not from FEMA violations or tax errors. The fix: a narrow, transaction-specific PoA, properly drafted by a lawyer experienced in NRI transactions, notarized and attested through the Embassy of India in Doha, Qatar, limited to exactly what this purchase or sale requires.",
       },
       {
         type: "crosslink",
-        text: "Both of these first two mistakes come up constantly enough that they deserve the full treatment — our complete guide to buying property in India as a Singapore NRI covers the payment trail and safe PoA structuring in detail.",
-        slug: "buying-property-india-from-singapore-nri-guide",
+        text: "Both of these first two mistakes come up constantly enough that they deserve the full treatment — our complete guide to buying property in India as a Qatar NRI covers the payment trail and safe PoA structuring in detail.",
+        slug: "buying-property-india-from-qatar-nri-guide",
       },
       { type: "h3", text: "3. Trusting the most recent sale deed instead of the full title chain" },
       {
@@ -1596,7 +1596,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "crosslink",
         text: "This matters differently depending on the city — our guide to the best Bangalore micro-markets for NRI investment walks through what RERA verification looks like in practice for a specific, active market.",
-        slug: "best-bangalore-projects-nri-investment-singapore",
+        slug: "best-bangalore-projects-nri-investment-qatar",
       },
       { type: "h3", text: "5. Assuming any loan amount you want will simply be approved" },
       {
@@ -1605,8 +1605,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "crosslink",
-        text: "Our guide to NRI home loans from Singapore covers eligibility, realistic LTV expectations, and the documentation that speeds up approval.",
-        slug: "nri-home-loan-guide-singapore",
+        text: "Our guide to NRI home loans from Qatar covers eligibility, realistic LTV expectations, and the documentation that speeds up approval.",
+        slug: "nri-home-loan-guide-qatar",
       },
       { type: "h3", text: "6. Applying for a Lower Deduction Certificate after signing the sale agreement" },
       {
@@ -1618,20 +1618,20 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "NRE accounts are meant for funds remitted from abroad; NRO is the designated account for India-sourced income like rent. Using the wrong one creates a paper-trail mismatch that tax authorities notice. The fix is simply routing rental income to the correct account from the very first payment, not retroactively.",
       },
-      { type: "h3", text: "8. Treating \"Singapore doesn't tax foreign income\" as \"I don't need to file in India\"" },
+      { type: "h3", text: "8. Treating \"Qatar doesn't tax foreign income\" as \"I don't need to file in India\"" },
       {
         type: "p",
-        text: "These are two unrelated facts that get merged into one wrong conclusion constantly. Singapore's territorial tax system not taxing your Indian rental or sale income doesn't mean India isn't taxing it — it almost certainly is, and the Indian filing obligation exists independent of what Singapore does or doesn't tax. The fix is filing in India regardless of your Singapore tax position, and treating TDS as a withholding, not a final settlement.",
+        text: "These are two unrelated facts that get merged into one wrong conclusion constantly. Qatar not taxing your Indian rental or sale income doesn't mean India isn't taxing it — it almost certainly is, and the Indian filing obligation exists independent of Qatar's zero-tax regime. The fix is filing in India regardless of your Qatar tax position, and treating TDS as a withholding, not a final settlement.",
       },
       {
         type: "crosslink",
-        text: "Mistakes 6, 7, and 8 all live in the same part of the process — our guide to NRI property tax filing from Singapore covers TDS, the Lower Deduction Certificate, and correct account handling in one place.",
-        slug: "nri-property-tax-filing-singapore",
+        text: "Mistakes 6, 7, and 8 all live in the same part of the process — our guide to NRI property tax filing from Qatar covers TDS, the Lower Deduction Certificate, and correct account handling in one place.",
+        slug: "nri-property-tax-filing-qatar",
       },
       { type: "h3", text: "9. Never writing an India-specific Will, or assuming nomination handles it" },
       {
         type: "p",
-        text: "A Singapore Will doesn't automatically govern Indian immovable property, and naming a nominee on a property doesn't make that person the legal owner after your death — a nominee generally just holds the asset for the actual legal heirs. The fix is a dedicated, India-specific Will, drafted by a lawyer experienced in NRI estates, done well before it's needed.",
+        text: "A Will made in Qatar doesn't automatically govern Indian immovable property, and naming a nominee on a property doesn't make that person the legal owner after your death — a nominee generally just holds the asset for the actual legal heirs. The fix is a dedicated, India-specific Will, drafted by a lawyer experienced in NRI estates, done well before it's needed.",
       },
       {
         type: "crosslink",
@@ -1669,7 +1669,7 @@ export const blogPosts: BlogPost[] = [
           "NRO accounts are designated for India-sourced income like rent; NRE accounts are for funds remitted from abroad. Crediting rental income to the wrong account creates a compliance mismatch that tax authorities notice, even though the actual tax owed doesn't change.",
       },
       {
-        question: "Does my Singapore Will cover my Indian property automatically?",
+        question: "Does my Qatar Will cover my Indian property automatically?",
         answer:
           "No. Indian immovable property is governed by Indian succession law regardless of residency, and a foreign Will often requires a separate re-probate process in India. A dedicated India-specific Will avoids this gap.",
       },
@@ -1684,9 +1684,9 @@ export const blogPosts: BlogPost[] = [
           "The underlying principles — payment trail, PoA scope, title verification, RERA checks, tax filing, and estate planning — apply nationally. Specific details like which RERA portal to check or regional title-record quirks (Goa's Comunidade land history, for example) vary by location.",
       },
       {
-        question: "Is \"Singapore doesn't tax foreign income\" ever a valid reason to skip Indian filing?",
+        question: "Is \"Qatar doesn't tax foreign income\" ever a valid reason to skip Indian filing?",
         answer:
-          "No. Singapore's territorial tax system not taxing foreign-sourced income has no bearing on your Indian filing obligation, which exists independently. TDS withheld in India is a withholding, not a final settlement — an Indian return is still required.",
+          "No. Qatar levying no personal income tax has no bearing on your Indian filing obligation, which exists independently. TDS withheld in India is a withholding, not a final settlement — an Indian return is still required.",
       },
       {
         question: "What's the single highest-leverage fix among these nine mistakes?",

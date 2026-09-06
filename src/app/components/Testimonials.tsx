@@ -11,42 +11,42 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
   {
     name: "Arjun Mehta",
-    location: "NRI, Singapore",
+    location: "NRI, Doha, Qatar",
     text: "The NRI Nivesh Expo was a revelation. I found exactly the sea-facing apartment in Mumbai I was looking for without having to travel to India. The due diligence was impressive.",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
     rating: 5
   },
   {
     name: "Priya Kapoor",
-    location: "NRI, Singapore",
-    text: "Very well organized. The team helped me navigate the legalities of buying property in India while sitting here in Singapore. The direct access to developers made all the difference.",
+    location: "NRI, Doha, Qatar",
+    text: "Very well organized. The team helped me navigate the legalities of buying property in India while sitting here in Doha. The direct access to developers made all the difference.",
     img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200",
     rating: 5
   },
   {
     name: "Suresh Reddy",
-    location: "Business Owner, Singapore",
+    location: "Business Owner, Doha, Qatar",
     text: "I've attended many expos, but the quality of developers at NRI Nivesh is unmatched. I booked a premium villa in Goa with complete confidence.",
     img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200",
     rating: 5
   },
   {
     name: "Deepak Chawla",
-    location: "Investment Banker, Singapore",
+    location: "Investment Banker, Doha, Qatar",
     text: "A seamless experience. The advisory on taxation for NRIs and the specific information about GIFT City property options was incredibly helpful for understanding available choices.",
     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
     rating: 4
   },
   {
     name: "Anjali Nair",
-    location: "Architect, Singapore",
+    location: "Architect, Doha, Qatar",
     text: "A must-visit for any NRI looking to invest back home. Transparent, professional, and zero-pressure environment. Highly recommended.",
     img: "https://images.unsplash.com/photo-1573496359-136d9220c473?q=80&w=200",
     rating: 5
   },
   {
     name: "Rohan Gupta",
-    location: "Tech Lead, Singapore",
+    location: "Tech Lead, Doha, Qatar",
     text: "Found a great pre-launch offer in Gurgaon that wasn't available anywhere else online. The exclusive expo-only deals are definitely real.",
     img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200",
     rating: 5

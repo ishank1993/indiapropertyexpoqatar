@@ -10,7 +10,7 @@ import { RegistrationModal } from "../RegistrationModal";
 import { Toaster } from "../ui/sonner";
 import { blogPosts } from "../../content/blogPosts";
 
-const SITE_URL = "https://nriniveshexposg.com";
+const SITE_URL = "https://indiapropertyexpoqatar.com";
 
 export function BlogIndexPage() {
   const navigate = useNavigate();
@@ -23,8 +23,8 @@ export function BlogIndexPage() {
   return (
     <>
       <SEOHead
-        title="NRI Property & Investment Guides for Singapore | NRI Nivesh Blog"
-        description="In-depth guides for Singapore NRIs on buying Indian property, GIFT City investing, and NRI tax filing — FEMA rules, TDS, DTAA, and Power of Attorney explained clearly."
+        title="NRI Property & Investment Guides for Qatar | NRI Nivesh Blog"
+        description="In-depth guides for Qatar NRIs on buying Indian property, GIFT City investing, and NRI tax filing — FEMA rules, TDS, DTAA, and Power of Attorney explained clearly."
         canonical={`${SITE_URL}/blog`}
         ogImage={`${SITE_URL}/og-image.jpg`}
       />
@@ -43,10 +43,10 @@ export function BlogIndexPage() {
                 <span className="text-orange-700 font-semibold tracking-wide text-sm">NRI Nivesh Blog</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-                Property & Investment Guides for Singapore NRIs
+                Property & Investment Guides for Qatar NRIs
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Clear, practical guidance on buying Indian property, comparing GIFT City to real estate, and filing NRI property tax from Singapore — written for people who've already done the basics.
+                Clear, practical guidance on buying Indian property, comparing GIFT City to real estate, and filing NRI property tax from Qatar — written for people who've already done the basics.
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export function BlogIndexPage() {
                   <div className="flex items-center gap-4 text-xs text-gray-500 mb-4">
                     <span className="flex items-center gap-1.5">
                       <Calendar className="w-3.5 h-3.5" />
-                      {new Date(post.publishDate).toLocaleDateString("en-SG", {
+                      {new Date(post.publishDate).toLocaleDateString("en-QA", {
                         year: "numeric",
                         month: "short",
                         day: "numeric",
