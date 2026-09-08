@@ -14,7 +14,7 @@ import { cn } from "./ui/utils";
 import { trackCompleteRegistration } from "@/utils/metaConversionApi";
 import { getSiteCountry } from "@/utils/siteCountry";
 import { toast } from "sonner";
-import { Loader2, CheckCircle2, Building2, Landmark, Globe2 } from "lucide-react";
+import { Loader2, CheckCircle2 } from "lucide-react";
 
 const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbzA08KCv3DFbFMcKUzpMi5Ug-xUd0_tqDmicwg-xr0ENcNtx7OfJdGvqTaHzHOkYxWw/exec";
 
@@ -29,9 +29,9 @@ interface RegistrationModalProps {
 // website. Only the auto-detected `country` value differs by site.
 
 const PRODUCT_INTERESTS = [
-  { value: "Property", label: "Property", icon: Building2 },
-  { value: "NRI Tax & Wealth", label: "NRI Tax & Wealth", icon: Landmark },
-  { value: "GIFT City", label: "GIFT City", icon: Globe2 },
+  { value: "Property", label: "Property" },
+  { value: "NRI Tax & Wealth", label: "NRI Tax & Wealth" },
+  { value: "GIFT City", label: "GIFT City" },
 ] as const;
 
 // Dial codes for the phone field's country-code picker (international
@@ -214,7 +214,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto p-4 sm:p-6">
         <DialogHeader className="space-y-1 sm:space-y-1.5 mb-1">
-          <DialogTitle className="text-lg sm:text-2xl font-bold text-center pr-8 sm:pr-10">
+          <DialogTitle className="text-lg sm:text-2xl font-bold text-center pr-8 sm:pr-10 bg-gradient-to-r from-orange-600 to-green-600 bg-clip-text text-transparent">
             Register Your Interest
           </DialogTitle>
           <DialogDescription className="text-center text-xs sm:text-sm px-1 sm:px-2">
@@ -229,7 +229,7 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
               What are you interested in? <span className="text-destructive">*</span>
             </Label>
             <div className="grid grid-cols-3 gap-2">
-              {PRODUCT_INTERESTS.map(({ value, label, icon: Icon }) => {
+              {PRODUCT_INTERESTS.map(({ value, label }) => {
                 const isSelected = formData.productInterest === value;
                 return (
                   <button
@@ -238,14 +238,13 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
                     onClick={() => handleInputChange("productInterest", value)}
                     aria-pressed={isSelected}
                     className={cn(
-                      "flex flex-col items-center justify-center gap-1.5 rounded-md border px-2 py-3 text-center transition-colors",
+                      "rounded-md border px-2 py-3.5 text-center text-xs sm:text-sm font-medium transition-colors",
                       isSelected
                         ? "border-orange-600 bg-orange-50 text-orange-700"
                         : "border-input bg-input-background text-foreground hover:border-orange-300"
                     )}
                   >
-                    <Icon className="size-5" />
-                    <span className="text-[11px] sm:text-xs font-medium leading-tight">{label}</span>
+                    {label}
                   </button>
                 );
               })}
@@ -269,56 +268,57 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
             />
           </div>
 
-          {/* Phone Number */}
-          <div className="space-y-1.5">
-            <Label htmlFor="phone" className="text-xs sm:text-sm">
-              Phone Number <span className="text-destructive">*</span>
-            </Label>
-            <div className="flex gap-1.5 sm:gap-2">
-              <Select
-                value={formData.dialCode}
-                onValueChange={(value) => handleInputChange("dialCode", value)}
-              >
-                <SelectTrigger className="w-[104px] sm:w-[120px] h-9 sm:h-10 text-xs sm:text-sm px-2.5">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  {dialCodes.map((item) => (
-                    <SelectItem key={item.code} value={item.code} className="text-xs sm:text-sm">
-                      {item.flag} {item.code}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+          {/* Phone Number and Email Address */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 md:gap-3">
+            <div className="space-y-1.5">
+              <Label htmlFor="phone" className="text-xs sm:text-sm">
+                Phone Number <span className="text-destructive">*</span>
+              </Label>
+              <div className="flex gap-1.5 sm:gap-2">
+                <Select
+                  value={formData.dialCode}
+                  onValueChange={(value) => handleInputChange("dialCode", value)}
+                >
+                  <SelectTrigger className="w-[104px] sm:w-[110px] h-9 sm:h-10 text-xs sm:text-sm px-2.5">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {dialCodes.map((item) => (
+                      <SelectItem key={item.code} value={item.code} className="text-xs sm:text-sm">
+                        {item.flag} {item.code}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+                <Input
+                  id="phone"
+                  type="tel"
+                  placeholder="12345678"
+                  value={formData.phone}
+                  onChange={(e) => handleInputChange("phone", e.target.value.replace(/\D/g, ""))}
+                  required
+                  className="flex-1 h-9 sm:h-10 text-sm sm:text-base"
+                  pattern="\d{7,15}"
+                  aria-required="true"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-1.5">
+              <Label htmlFor="email" className="text-xs sm:text-sm">
+                Email Address <span className="text-destructive">*</span>
+              </Label>
               <Input
-                id="phone"
-                type="tel"
-                placeholder="12345678"
-                value={formData.phone}
-                onChange={(e) => handleInputChange("phone", e.target.value.replace(/\D/g, ""))}
+                id="email"
+                type="email"
+                placeholder="your@email.com"
+                value={formData.email}
+                onChange={(e) => handleInputChange("email", e.target.value)}
                 required
-                className="flex-1 h-9 sm:h-10 text-sm sm:text-base"
-                pattern="\d{7,15}"
+                className="h-9 sm:h-10 text-sm sm:text-base"
                 aria-required="true"
               />
             </div>
-          </div>
-
-          {/* Email Address */}
-          <div className="space-y-1.5">
-            <Label htmlFor="email" className="text-xs sm:text-sm">
-              Email Address <span className="text-destructive">*</span>
-            </Label>
-            <Input
-              id="email"
-              type="email"
-              placeholder="your@email.com"
-              value={formData.email}
-              onChange={(e) => handleInputChange("email", e.target.value)}
-              required
-              className="h-9 sm:h-10 text-sm sm:text-base"
-              aria-required="true"
-            />
           </div>
 
           {/* Preferred City of Interest */}
