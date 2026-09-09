@@ -153,6 +153,21 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
       const result = await response.json();
       if (!result.success) throw new Error("Failed to save registration");
 
+      // Best-effort forward into Zoho CRM. Fire-and-forget: never awaited,
+      // never allowed to affect the registration flow above or below it.
+      fetch("/api/zoho-lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          product_interest: lead.product_interest,
+          full_name: lead.full_name,
+          phone: lead.phone,
+          email: lead.email,
+          preferred_city: lead.preferred_city,
+          page_url: window.location.href,
+        }),
+      }).catch(() => {});
+
       trackCompleteRegistration(
         {
           email: lead.email,
