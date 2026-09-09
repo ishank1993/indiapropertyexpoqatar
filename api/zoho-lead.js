@@ -10,6 +10,21 @@
 // confirmed by testing, not guessed from the DOM. If Zoho changes this
 // form (adds/renames/reorders fields), this silently breaks — worth a spot
 // check in Zoho after a few real registrations.
+//
+// IMPORTANT SCHEMA CONSTRAINT (confirmed by testing, not assumed): this
+// form's /records endpoint validates its payload against a CLOSED set of
+// keys — Radio, Name, PhoneNumber, Email, Dropdown, REFERRER_NAME,
+// ADDED_LANGUAGE. Sending ANY other key (utm_source, gclid, Country, ...)
+// makes Zoho reject the ENTIRE submission with 400, not just ignore the
+// extra key. Country and marketing attribution (UTM/gclid/fbclid/landing
+// page) therefore have no first-class field to land in on THIS form as it
+// exists today — they're packed into REFERRER_NAME (see
+// buildEnrichedReferrer) as the only free-text field available, so nothing
+// is silently lost, but they won't be individually filterable/reportable
+// as real Lead columns in Zoho CRM until someone with Zoho Forms access
+// adds hidden fields for them to this form (each mapped to a Lead field in
+// the form's CRM data connection) — at that point, re-run field discovery
+// to learn their internal keys and wire them in here directly.
 
 const ZOHO_RECORDS_URL =
   "https://forms.zohopublic.in/nriniveshrealstate1/form/RegisterYourInterest/formperma/Lj0f0TmIyo5zKFxOKwOMYn--en55raCy4hkjJk3961w/records";
@@ -57,6 +72,47 @@ function splitName(fullName) {
   return { first: parts[0], last: parts.slice(1).join(" ") };
 }
 
+// Packs country + marketing attribution into the one free-text field Zoho's
+// schema will actually accept (REFERRER_NAME), as "<page-url>#attribution;
+// key=value;...". The base URL stays a valid, openable link to the page the
+// lead came from; everything after #attribution is metadata for a human
+// reading the Lead record until real fields exist for it (see file header).
+function buildEnrichedReferrer(country, attribution) {
+  const currentUrl = (attribution && attribution.current_page_url) || "";
+  const extras = [];
+
+  const add = (key, value) => {
+    if (value) extras.push(`${key}=${encodeURIComponent(value)}`);
+  };
+
+  add("country", country);
+  if (attribution) {
+    add("utm_source", attribution.utm_source);
+    add("utm_medium", attribution.utm_medium);
+    add("utm_campaign", attribution.utm_campaign);
+    add("utm_term", attribution.utm_term);
+    add("utm_content", attribution.utm_content);
+    add("gclid", attribution.gclid);
+    add("fbclid", attribution.fbclid);
+    if (attribution.landing_page_url && attribution.landing_page_url !== currentUrl) {
+      add("landing_page", attribution.landing_page_url);
+    }
+    add("first_referrer", attribution.first_touch_referrer);
+    if (!attribution.first_touch_referrer) {
+      add("referrer", attribution.current_referrer);
+    }
+  }
+
+  let result = currentUrl;
+  if (extras.length) {
+    result += `#attribution;${extras.join(";")}`;
+  }
+
+  // Mirrors the ~1800-char safety cap Zoho's own iframe embed script
+  // applies to this same underlying field.
+  return result.length > 1800 ? result.slice(0, 1800) : result;
+}
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ ok: false });
@@ -64,7 +120,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { product_interest, full_name, phone, email, preferred_city, page_url } = req.body || {};
+    const { product_interest, full_name, phone, email, preferred_city, country, attribution } = req.body || {};
 
     if (!full_name || !phone || !email) {
       console.error("Zoho lead relay: skipped, missing required field(s)", req.body);
@@ -78,7 +134,7 @@ export default async function handler(req, res) {
         PhoneNumber: phone,
         Email: email,
         Dropdown: cityLabel,
-        REFERRER_NAME: page_url || "",
+        REFERRER_NAME: buildEnrichedReferrer(country, attribution),
         ADDED_LANGUAGE: "en",
       };
 

@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { cn } from "./ui/utils";
 import { trackCompleteRegistration } from "@/utils/metaConversionApi";
 import { getSiteCountry } from "@/utils/siteCountry";
+import { getAttributionSnapshot } from "@/utils/attribution";
 import { toast } from "sonner";
 import { Loader2, CheckCircle2 } from "lucide-react";
 
@@ -164,7 +165,8 @@ export function RegistrationModal({ isOpen, onClose, onSuccess }: RegistrationMo
           phone: lead.phone,
           email: lead.email,
           preferred_city: lead.preferred_city,
-          page_url: window.location.href,
+          country: lead.country,
+          attribution: getAttributionSnapshot(),
         }),
       }).catch(() => {});
 

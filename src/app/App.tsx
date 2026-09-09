@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import { recordPageView } from "@/utils/attribution";
 import { BlogIndexPage } from "./components/blog/BlogIndexPage";
 import { BlogPostPage } from "./components/blog/BlogPostPage";
 import { Navbar } from "./components/Navbar";
@@ -33,6 +34,7 @@ import { trackPageView } from "@/utils/metaConversionApi";
 // Top-level router: blog gets real URL paths, everything else keeps
 // the existing hash-based page switching in MainApp.
 export default function App() {
+  useAttributionTracking();
   return (
     <Routes>
       <Route path="/blog" element={<BlogIndexPage />} />
@@ -40,6 +42,16 @@ export default function App() {
       <Route path="*" element={<MainApp />} />
     </Routes>
   );
+}
+
+// Records marketing attribution (UTM/gclid/fbclid, landing page, referrer)
+// on first load and on every in-app route change, so it's available
+// whichever page the visitor eventually submits the RSVP form from.
+function useAttributionTracking() {
+  const location = useLocation();
+  useEffect(() => {
+    recordPageView();
+  }, [location.pathname, location.search]);
 }
 
 // Main App Component - Mobile Optimized Form
